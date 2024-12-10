@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<include>
+	<caption pos="0,0,-0,-0">
+		<imgbtn name="btn_close" skin="skin_common_close"    pos="-50,0" tip="关闭" animate="1" cursor="hand"/>
+		<imgbtn name="btn_max" skin="skin_common_max"  pos="-100,{0" animate="1" cursor="hand"/>
+		<imgbtn name="btn_restore" skin="skin_common_restore"  pos="-100,{0" show="0" animate="1" cursor="hand"/>
+		<imgbtn name="btn_min" skin="skin_common_min" pos="-150,{0" animate="1" cursor="hand"/>
+
+		<caption pos="0,0,@160,-0" colorBkgnd="rgb(0,238,0)">
+
+		</caption>
+		<caption pos="[0,50,-0,-0" colorBkgnd="rgb(230,0,238)">
+
+		</caption>
+	</caption>
+</include>
