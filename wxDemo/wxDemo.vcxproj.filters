@@ -17,6 +17,9 @@
       <UniqueIdentifier>{b1ccd820-b77e-4745-abf7-5a9b49038fc5}</UniqueIdentifier>
       <Extensions>idx;xml;png;gif;jpg;ico;lua;bmp</Extensions>
     </Filter>
+    <Filter Include="适配器">
+      <UniqueIdentifier>{a1712ac6-8584-431f-9348-0bd274aa0c69}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="license.txt" />
@@ -35,10 +38,13 @@
     <ClCompile Include="trayicon\SShellTray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CLvMessageAdapter.cpp">
+    <ClCompile Include="CGlobalUnits.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CGlobalUnits.cpp">
+    <ClCompile Include="CLvMessageAdapter.cpp">
+      <Filter>适配器</Filter>
+    </ClCompile>
+    <ClCompile Include="EmojiDlg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -60,14 +66,20 @@
     <ClInclude Include="trayicon\SShellTray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CLvMessageAdapter.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="CGlobalUnits.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="apppublic.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CLvMessageAdapter.h">
+      <Filter>适配器</Filter>
+    </ClInclude>
+    <ClInclude Include="EmojiDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CEmotionTileViewAdapter.h">
+      <Filter>适配器</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -116,6 +128,9 @@
       <Filter>SoUI Resource</Filter>
     </Xml>
     <Xml Include="uires\xml\page_comm_personal.xml">
+      <Filter>SoUI Resource</Filter>
+    </Xml>
+    <Xml Include="uires\xml\dlg_emoji.xml">
       <Filter>SoUI Resource</Filter>
     </Xml>
   </ItemGroup>
