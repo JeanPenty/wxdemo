@@ -1,0 +1,23 @@
+//stamp:01d8d3228975d5e4
+/*<------------------------------------------------------------------------------------------------->*/
+#define DEFINE_UIRES(name, type, file_path)\
+    name type file_path
+
+DEFINE_UIRES(XML_INIT,	UIDEF,	"uires\\uidef\\init.xml")
+DEFINE_UIRES(XML_MAINWND,	LAYOUT,	"uires\\xml\\dlg_main.xml")
+DEFINE_UIRES(DLG_TEST,	LAYOUT,	"uires\\xml\\dlg_test.xml")
+DEFINE_UIRES(menu_test,	SMENU,	"uires\\xml\\menu_test.xml")
+DEFINE_UIRES(menuex_test,	SMENU,	"uires\\xml\\menuex_test.xml")
+DEFINE_UIRES(string,	values,	"uires\\values\\string.xml")
+DEFINE_UIRES(color,	values,	"uires\\values\\color.xml")
+DEFINE_UIRES(skin,	values,	"uires\\values\\skin.xml")
+DEFINE_UIRES(circulation,	ImgTrayMenu,	"uires\\image\\TrayMenu\\circulation.png")
+DEFINE_UIRES(ilike,	ImgTrayMenu,	"uires\\image\\TrayMenu\\ilike.png")
+DEFINE_UIRES(next,	ImgTrayMenu,	"uires\\image\\TrayMenu\\next.png")
+DEFINE_UIRES(pause,	ImgTrayMenu,	"uires\\image\\TrayMenu\\pause.png")
+DEFINE_UIRES(play,	ImgTrayMenu,	"uires\\image\\TrayMenu\\play.png")
+DEFINE_UIRES(pre,	ImgTrayMenu,	"uires\\image\\TrayMenu\\pre.png")
+DEFINE_UIRES(volume,	ImgTrayMenu,	"uires\\image\\TrayMenu\\volume.png")
+DEFINE_UIRES(menu_ico,	ImgTrayMenu,	"uires\\image\\TrayMenu\\menu_ico.png")
+DEFINE_UIRES(png_menu_border,	ImgTrayMenu,	"uires\\image\\TrayMenu\\menuborder.png")
+DEFINE_UIRES(ICON_LOGO,	ICON,	"uires\\image\\soui.ico")
