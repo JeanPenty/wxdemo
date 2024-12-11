@@ -38,6 +38,9 @@
     <ClCompile Include="CLvMessageAdapter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CGlobalUnits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="wxDemo.rc">
@@ -58,6 +61,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CLvMessageAdapter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGlobalUnits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="apppublic.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -98,6 +107,15 @@
       <Filter>SoUI Resource</Filter>
     </Xml>
     <Xml Include="uires\xml\page_msg.xml">
+      <Filter>SoUI Resource</Filter>
+    </Xml>
+    <Xml Include="uires\xml\page_comm_filehelper.xml">
+      <Filter>SoUI Resource</Filter>
+    </Xml>
+    <Xml Include="uires\xml\page_comm_group.xml">
+      <Filter>SoUI Resource</Filter>
+    </Xml>
+    <Xml Include="uires\xml\page_comm_personal.xml">
       <Filter>SoUI Resource</Filter>
     </Xml>
   </ItemGroup>

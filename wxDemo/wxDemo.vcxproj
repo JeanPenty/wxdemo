@@ -185,6 +185,7 @@
     <Text Include="readme.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CGlobalUnits.cpp" />
     <ClCompile Include="CLvMessageAdapter.cpp" />
     <ClCompile Include="MainDlg.cpp" />
     <ClCompile Include="stdafx.cpp">
@@ -200,6 +201,8 @@
     <ResourceCompile Include="wxDemo.rc" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="apppublic.h" />
+    <ClInclude Include="CGlobalUnits.h" />
     <ClInclude Include="CLvMessageAdapter.h" />
     <ClInclude Include="MainDlg.h" />
     <ClInclude Include="resource.h" />
@@ -233,6 +236,9 @@
     <Xml Include="uires\xml\dlg_main.xml" />
     <Xml Include="uires\xml\menu_tray.xml" />
     <Xml Include="uires\xml\page_collect.xml" />
+    <Xml Include="uires\xml\page_comm_filehelper.xml" />
+    <Xml Include="uires\xml\page_comm_group.xml" />
+    <Xml Include="uires\xml\page_comm_personal.xml" />
     <Xml Include="uires\xml\page_contact.xml" />
     <Xml Include="uires\xml\page_msg.xml" />
   </ItemGroup>

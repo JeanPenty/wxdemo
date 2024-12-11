@@ -16,8 +16,8 @@
 				<img name="main_logo" pos="|-16,20" skin="skin_default_logo32p" msgTransparent="0" cursor="hand"/>
 
 				<imgbtn name="btn_message" pos="{0,[40,@32,@32" skin="skin_message" cursor="hand"/>
-				<imgbtn name="btn_contact" pos="{0,[20,@32,@32" skin="skin_contact" cursor="hand"/>
-				<imgbtn name="btn_favorites" pos="{0,[20,@32,@32" skin="skin_favorites" cursor="hand"/>
+				<imgbtn name="btn_contact" pos="{0,[10,@32,@32" skin="skin_contact" cursor="hand"/>
+				<imgbtn name="btn_favorites" pos="{0,[10,@32,@32" skin="skin_favorites" cursor="hand"/>
 			</caption>
 			
 			<tabctrl pos="[0,0,-0,-0" name="tab_main_opt" tabHeight="0">

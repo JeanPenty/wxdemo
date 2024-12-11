@@ -8,6 +8,8 @@ class CLvMessageAdapter : public SAdapterBase
 public:
 	struct ItemData
 	{
+		int m_nType;
+		SStringW m_sstrID;
 		SStringW m_sstrAvatar;
 		SStringW m_sstrName;
 		SStringW m_sstrContent;
@@ -17,7 +19,7 @@ public:
 
 	struct IListen
 	{
-		virtual void OnItemClick(int& nIndex) = 0;
+		virtual void OnMessageItemClick(int& nIndex) = 0;
 	};
 
 protected:
@@ -42,7 +44,9 @@ protected:
 		if (!pItem) return false;
 
 		int nIndex = static_cast<int>(pItem->GetItemIndex());
-		m_pListen->OnItemClick(nIndex);
+		ItemData* pItemData = m_vecItemDatas[nIndex];
+
+		m_pListen->OnMessageItemClick(nIndex);
 		return TRUE;
 	}
 
@@ -120,9 +124,11 @@ public:
 		}
 	}
 
-	void AddItem(SStringW& sstrAvatar, SStringW& sstrName, SStringW& sstrContent, SStringW& sstrTime, bool& bReminder)
+	void AddItem(SStringW& sstrID, int& nType, SStringW& sstrAvatar, SStringW& sstrName, SStringW& sstrContent, SStringW& sstrTime, bool& bReminder)
 	{
 		ItemData* data = new ItemData;
+		data->m_nType = nType;
+		data->m_sstrID = sstrID;
 		data->m_sstrAvatar = sstrAvatar;
 		data->m_sstrName = sstrName;
 		data->m_sstrContent = sstrContent;
@@ -137,6 +143,11 @@ public:
 	{
 		m_vecItemDatas.clear();
 		notifyDataSetChanged();
+	}
+
+	ItemData* GetItemData(int& nIndex)
+	{
+		return m_vecItemDatas[nIndex];
 	}
 
 	void EnsureVisible(int& nIndex)
