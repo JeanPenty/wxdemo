@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{70211086-1C1D-33CB-BD83-0253C3C3EB7D}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>msls31</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\soui_demos\soui\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">msls31.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">msls31</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\soui_demos\soui\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">msls31.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">msls31</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\third-part\richedit41\lssrc\..\lsinc;E:\soui_demos\soui\third-part\richedit41\lssrc\..\inci;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;UNICODE;_UNICODE;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;_CRT_SECURE_NO_WARNINGS;_NO_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;UNICODE;_UNICODE;_DEBUG;_WINDOWS;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;_CRT_SECURE_NO_WARNINGS;_NO_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\third-part\richedit41\lssrc\..\lsinc;E:\soui_demos\soui\third-part\richedit41\lssrc\..\inci;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;UNICODE;_UNICODE;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;_CRT_SECURE_NO_WARNINGS;_NO_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <IncludePaths>E:\soui_demos\soui\build\config;E:\soui_demos\soui\third-part\richedit41\lssrc\..\lsinc;E:\soui_demos\soui\third-part\richedit41\lssrc\..\inci;%(IncludePaths)</IncludePaths>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\third-part\richedit41\lssrc\..\lsinc;E:\soui_demos\soui\third-part\richedit41\lssrc\..\inci;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\third-part\richedit41\lssrc\..\lsinc;E:\soui_demos\soui\third-part\richedit41\lssrc\..\inci;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;_CRT_SECURE_NO_WARNINGS;_NO_WINDOWS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;UNICODE;_UNICODE;_WINDOWS;NDEBUG;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;_CRT_SECURE_NO_WARNINGS;_NO_WINDOWS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\third-part\richedit41\lssrc\..\lsinc;E:\soui_demos\soui\third-part\richedit41\lssrc\..\inci;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;_CRT_SECURE_NO_WARNINGS;_NO_WINDOWS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <IncludePaths>E:\soui_demos\soui\build\config;E:\soui_demos\soui\third-part\richedit41\lssrc\..\lsinc;E:\soui_demos\soui\third-part\richedit41\lssrc\..\inci;%(IncludePaths)</IncludePaths>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\third-part\richedit41\lssrc\..\lsinc;E:\soui_demos\soui\third-part\richedit41\lssrc\..\inci;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\soui_demos\soui\third-part\richedit41\lssrc\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/soui_demos/soui/third-part/richedit41/lssrc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+F:\cmake-3.17.2-win64-x64\bin\cmake.exe -SE:/soui_demos/soui -BE:/soui_demos/soui/build --check-stamp-file E:/soui_demos/soui/build/third-part/richedit41/lssrc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\soui_demos\soui\build\third-part\richedit41\lssrc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/soui_demos/soui/third-part/richedit41/lssrc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+F:\cmake-3.17.2-win64-x64\bin\cmake.exe -SE:/soui_demos/soui -BE:/soui_demos/soui/build --check-stamp-file E:/soui_demos/soui/build/third-part/richedit41/lssrc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\soui_demos\soui\build\third-part\richedit41\lssrc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\autonum.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\break.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\chnutils.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\dispmain.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\dispmisc.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\disptext.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\dispul.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\dnutils.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\enumcore.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\hih.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lnutils.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lscontxt.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lscrline.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lscrsubl.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lsdnfin.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lsdnset.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lsdntext.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lsdsply.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lsdssubl.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lsensubl.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lsenum.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lsfetch.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lsqcore.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lsqline.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lsqsubl.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lssetdoc.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lsstring.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lssubset.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lstfset.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lstxtbr1.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lstxtbrk.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lstxtbrs.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lstxtcmp.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lstxtfmt.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lstxtglf.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lstxtini.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lstxtjst.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lstxtmap.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lstxtmod.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lstxtnti.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lstxtqry.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lstxtscl.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lstxttab.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lstxtwrd.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\ntiman.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\objhelp.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\prepdisp.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\qheap.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\robj.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\ruby.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\sobjhelp.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\sublutil.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\tabutils.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\tatenak.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\textenum.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\unixfunctions.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\vruby.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\warichu.c" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\zqfromza.c" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\breakrec.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\brkcls.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\brkcond.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\brkkind.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\brko.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\brkpos.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\dispi.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\endres.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\exptype.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\fmti.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\fmtres.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\gmap.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\gprop.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\heights.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\hih.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\kamount.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\locchnk.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsact.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsbrjust.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsbrk.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lscbk.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lscell.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lschnke.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lschp.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lscontxt.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lscrline.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lscrsubl.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsdefs.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsdevice.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsdevres.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsdnfin.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsdnset.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsdocinf.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsdsply.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsdssubl.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsems.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsensubl.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsenum.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsesc.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsexpan.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsexpinf.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsffi.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsfgi.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsfrun.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lshyph.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsimeth.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lskalign.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lskeop.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lskjust.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsksplat.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsktab.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lskysr.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lslinfo.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lspairac.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lspap.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lspract.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsqin.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsqline.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsqout.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsqsinfo.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsqsubl.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lssetdoc.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsstinfo.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lssubset.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lstabs.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lstflow.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lstfset.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lstxm.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lstxtcfg.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsulinfo.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\mwcls.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\objdim.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\pbrko.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\pcelldet.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\pdispi.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\pdobj.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\pfmti.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\pheights.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\pilsobj.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plnobj.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plocchnk.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plscbk.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plscell.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plschp.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plsdnode.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plsdocin.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plsems.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plsfgi.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plsfrun.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plshyph.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plsline.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plspap.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plsqin.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plsqout.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plsqsinf.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plsrun.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plsstinf.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plssubl.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plstabs.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plstxm.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plstxtcf.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plsulinf.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\pobjdim.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\posichnk.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\pposichn.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\robj.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\ruby.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\tatenak.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\vruby.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\warichu.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\zqfromza.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\soui_demos\soui\build\ZERO_CHECK.vcxproj">
+      <Project>{CF3B0646-5BD2-34DA-895F-A3261AEA35A8}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

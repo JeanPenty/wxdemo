@@ -1,0 +1,1364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\SevenZip\SevenZipExtractorMemory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\SevenZip\FileStreamMemory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\SevenZip\ArchiveExtractCallbackMemory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\SevenZip\OutStreamWrapperMemory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\SevenZip\BlobBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\SevenZip\ErpExcept.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\SevenZip\FileStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Iso\IsoHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Tar\TarHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Wim\WimHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Zip\ZipHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\DllSecur.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\7zBuf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\7zCrc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\7zStream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\Aes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\Alloc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\Bcj2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\Bcj2Enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\Blake2s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\Bra.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\Bra86.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\BraIA64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\BwtSort.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\CpuArch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\Delta.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\HuffEnc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\LzFind.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\LzFindMt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\Lzma2Dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\Lzma2Enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\LzmaDec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\LzmaEnc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\MtCoder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\Ppmd7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\Ppmd7Dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\Ppmd7Enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\Ppmd8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\Ppmd8Dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\Ppmd8Enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\Sha1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\Sha256.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\Sort.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\Threads.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\Xz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\XzCrc64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\XzCrc64Opt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\XzDec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\XzEnc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\C\XzIn.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\SevenZip\ArchiveExtractCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\SevenZip\ArchiveOpenCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\SevenZip\ArchiveUpdateCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\SevenZip\FileSys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\SevenZip\GUIDs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\SevenZip\InStreamWrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\SevenZip\OutStreamWrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\SevenZip\PathScanner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\SevenZip\PropVariant2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\SevenZip\SevenZipArchive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\SevenZip\SevenZipCompressor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\SevenZip\SevenZipException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\SevenZip\SevenZipExtractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\SevenZip\SevenZipLister.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\SevenZip\UsefulFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\Common\CRC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\Common\DynLimBuf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\Common\IntToString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\Common\MyMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\Common\MyString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\Common\MyVector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\Common\MyWindows.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\Common\MyXml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\Common\NewHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\Common\StringConvert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\Common\StringToInt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\Common\UTFConvert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\Common\Wildcard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\Windows\FileDir.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\Windows\FileFind.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\Windows\FileIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\Windows\FileName.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\Windows\PropVariant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\Windows\PropVariantUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\Windows\Synchronization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\Windows\System.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\Windows\TimeUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\7z\7zCompressionMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\7z\7zDecode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\7z\7zEncode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\7z\7zExtract.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\7z\7zFolderInStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\7z\7zHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\7z\7zHeader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\7z\7zIn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\7z\7zOut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\7z\7zProperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\7z\7zSpecStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\7z\7zUpdate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\7z\7zHandlerOut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\ArchiveExports.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Cab\CabBlockInStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Cab\CabHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Cab\CabHeader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Cab\CabIn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Chm\ChmIn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Common\CoderMixer2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Common\DummyOutStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Common\FindSignature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Common\HandlerOut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Common\InStreamWithCRC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Common\ItemNameUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Common\MultiStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Common\OutStreamWithCRC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Common\OutStreamWithSha1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Common\ParseProperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\DeflateProps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\DllExports2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\HandlerCont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Iso\IsoHeader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Iso\IsoIn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Nsis\NsisDecode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Nsis\NsisHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Nsis\NsisIn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Tar\TarHandlerOut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Tar\TarHeader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Tar\TarIn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Tar\TarOut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Tar\TarUpdate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Udf\UdfIn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Wim\WimHandlerOut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Wim\WimIn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Zip\ZipAddCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Zip\ZipHandlerOut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Zip\ZipIn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Zip\ZipItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Zip\ZipOut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Zip\ZipUpdate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\CreateCoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\CWrappers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\FilterCoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\InBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\InOutTempBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\LimitedStreams.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\MemBlocks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\MethodId.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\MethodProps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\OffsetStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\OutBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\OutMemStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\ProgressMt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\ProgressUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\PropId.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\StreamBinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\StreamObjects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\StreamUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\UniqBlocks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\VirtThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\Bcj2Coder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\BcjCoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\BitlDecoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\BranchMisc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\BZip2Crc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\BZip2Decoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\BZip2Encoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\CodecExports.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\CopyCoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\DeflateDecoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\DeflateEncoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\ImplodeDecoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\ImplodeHuffmanDecoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\LzhDecoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\Lzma2Decoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\Lzma2Encoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\LzmaDecoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\LzmaEncoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\LzmsDecoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\LzOutWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\LzxDecoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\PpmdDecoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\PpmdEncoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\PpmdZip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\QuantumDecoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\Rar1Decoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\Rar2Decoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\Rar3Decoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\Rar3Vm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\Rar5Decoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\ShrinkDecoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\XpressDecoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\ZDecoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\ZlibDecoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\ZlibEncoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Crypto\7zAes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Crypto\HmacSha1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Crypto\HmacSha256.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Crypto\MyAes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Crypto\Pbkdf2HmacSha1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Crypto\RandGen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Crypto\Rar20Crypto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Crypto\Rar5Aes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Crypto\RarAes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Crypto\WzAes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Crypto\ZipCrypto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Crypto\ZipStrong.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Crypto\7zAesRegister.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\SevenZip\SevenZipExtractorMemory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\SevenZip\FileStreamMemory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\SevenZip\ArchiveExtractCallbackMemory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\SevenZip\OutStreamWrapperMemory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\SevenZip\BlobBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\SevenZip\ErpExcept.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\SevenZip\FileStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\DllSecur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\7zCrc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\7zTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\Aes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\Alloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\Bcj2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\Blake2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\Bra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\BwtSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\Compiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\CpuArch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\Delta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\HuffEnc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\LzFind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\LzFindMt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\LzHash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\Lzma2Dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\Lzma2Enc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\LzmaDec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\LzmaEnc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\MtCoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\Ppmd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\Ppmd7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\Ppmd8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\Precomp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\RotateDefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\Sha1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\Sha256.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\Sort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\Threads.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\Xz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\XzCrc64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\C\XzEnc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\SevenZip\ArchiveExtractCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\SevenZip\ArchiveOpenCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\SevenZip\ArchiveUpdateCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\SevenZip\CompressionFormat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\SevenZip\CompressionLevel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\SevenZip\Enum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\SevenZip\FileInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\SevenZip\FileSys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\SevenZip\GUIDs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\SevenZip\InStreamWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\SevenZip\ListCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\SevenZip\OutStreamWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\SevenZip\PathScanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\SevenZip\ProgressCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\SevenZip\PropVariant2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\SevenZip\SevenString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\SevenZip\SevenZipArchive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\SevenZip\SevenZipCompressor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\SevenZip\SevenZipException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\SevenZip\SevenZipExtractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\SevenZip\SevenZipLister.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\SevenZip\UsefulFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Common\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Common\Defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Common\DynamicBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Common\DynLimBuf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Common\IntToString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Common\MyBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Common\MyCom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Common\MyException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Common\MyInitGuid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Common\MyLinux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Common\MyMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Common\MyString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Common\MyTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Common\MyUnknown.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Common\MyVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Common\MyWindows.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Common\MyXml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Common\NewHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Common\StringConvert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Common\StringToInt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Common\UTFConvert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Common\Wildcard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Windows\Defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Windows\FileDir.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Windows\FileFind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Windows\FileIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Windows\FileName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Windows\PropVariant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Windows\PropVariantUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Windows\Synchronization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Windows\System.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Windows\Thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\Windows\TimeUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\7z\7zCompressionMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\7z\7zDecode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\7z\7zEncode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\7z\7zFolderInStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\7z\7zHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\7z\7zHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\7z\7zIn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\7z\7zItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\7z\7zOut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\7z\7zProperties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\7z\7zSpecStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\7z\7zUpdate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Cab\CabBlockInStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Cab\CabHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Cab\CabHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Cab\CabIn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Cab\CabItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Chm\ChmHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Chm\ChmIn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Common\CoderMixer2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Common\DummyOutStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Common\FindSignature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Common\InStreamWithCRC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Common\ItemNameUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Common\MultiStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Common\OutStreamWithCRC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Common\OutStreamWithSha1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Common\ParseProperties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\DeflateProps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\HandlerCont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\IArchive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Iso\IsoHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Iso\IsoHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Iso\IsoIn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Iso\IsoItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Nsis\NsisDecode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Nsis\NsisHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Nsis\NsisIn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Rar\Rar5Handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Rar\RarHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Rar\RarHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Rar\RarItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Rar\RarVol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Tar\TarHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Tar\TarHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Tar\TarIn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Tar\TarItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Tar\TarOut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Tar\TarUpdate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Udf\UdfHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Udf\UdfIn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Wim\WimHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Wim\WimIn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\XzHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Zip\ZipAddCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Zip\ZipCompressionMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Zip\ZipHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Zip\ZipHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Zip\ZipIn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Zip\ZipItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Zip\ZipOut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Archive\Zip\ZipUpdate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\CreateCoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\CWrappers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\FilterCoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\InBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\InOutTempBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\LimitedStreams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\MemBlocks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\MethodId.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\MethodProps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\OffsetStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\OutBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\OutMemStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\ProgressMt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\ProgressUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\RegisterArc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\RegisterCodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\StreamBinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\StreamObjects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\StreamUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\UniqBlocks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Common\VirtThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\Bcj2Coder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\BcjCoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\BitlDecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\BitlEncoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\BitmDecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\BitmEncoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\BranchMisc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\BZip2Const.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\BZip2Crc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\BZip2Decoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\BZip2Encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\CopyCoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\DeflateConst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\DeflateDecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\DeflateEncoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\HuffmanDecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\ImplodeDecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\ImplodeHuffmanDecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\LzhDecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\Lzma2Decoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\Lzma2Encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\LzmaDecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\LzmaEncoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\LzmsDecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\LzOutWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\Lzx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\LzxDecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\Mtf8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\PpmdDecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\PpmdEncoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\PpmdZip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\QuantumDecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\Rar1Decoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\Rar2Decoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\Rar3Decoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\Rar3Vm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\Rar5Decoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\ShrinkDecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\XpressDecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\ZDecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\ZlibDecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Compress\ZlibEncoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Crypto\7zAes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Crypto\HmacSha1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Crypto\HmacSha256.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Crypto\MyAes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Crypto\Pbkdf2HmacSha1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Crypto\RandGen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Crypto\Rar20Crypto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Crypto\Rar5Aes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Crypto\RarAes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Crypto\Sha1Cls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Crypto\WzAes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Crypto\ZipCrypto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\Crypto\ZipStrong.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\ICoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\IDecl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\IPassword.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\IProgress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\IStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\7z\CPP\7zip\PropID.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\soui_demos\soui\third-part\7z\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="E:\soui_demos\soui\third-part\7z\Asm\x86\7zCrcOpt.asm">
+      <Filter>Asms Files</Filter>
+    </MASM>
+    <MASM Include="E:\soui_demos\soui\third-part\7z\Asm\x86\AesOpt.asm">
+      <Filter>Asms Files</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Asms Files">
+      <UniqueIdentifier>{C1C27166-EA5F-3AA2-B42B-0024A02EEB73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{12DD08E1-E772-3AD6-AEC9-A9AD349F4A93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2A1247C9-BEEA-38B1-B338-B9DCCFA9DCD7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

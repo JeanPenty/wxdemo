@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{99D59814-7B23-3AA3-ADC5-A8187C5CFF32}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ipc_client</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\soui_demos\soui\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ipc_client.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ipc_client</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\soui_demos\soui\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ipc_client.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ipc_client</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\fun_test\PRIVATE;E:\soui_demos\soui\fun_test;E:\soui_demos\soui\fun_test\PUBLIC;E:\soui_demos\soui\fun_test\include;E:\soui_demos\soui\utilities\include;E:\soui_demos\soui\third-part\gtest\include;E:\soui_demos\soui\components;E:\soui_demos\soui\SOUI\include;E:\soui_demos\soui\SOUI\interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;UNICODE;_UNICODE;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;_CRT_SECURE_NO_WARNINGS;_HAS_TR1_NAMESPACE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;UNICODE;_UNICODE;_DEBUG;_WINDOWS;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;_CRT_SECURE_NO_WARNINGS;_HAS_TR1_NAMESPACE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\fun_test\PRIVATE;E:\soui_demos\soui\fun_test;E:\soui_demos\soui\fun_test\PUBLIC;E:\soui_demos\soui\fun_test\include;E:\soui_demos\soui\utilities\include;E:\soui_demos\soui\third-part\gtest\include;E:\soui_demos\soui\components;E:\soui_demos\soui\SOUI\include;E:\soui_demos\soui\SOUI\interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;UNICODE;_UNICODE;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;_CRT_SECURE_NO_WARNINGS;_HAS_TR1_NAMESPACE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <IncludePaths>E:\soui_demos\soui\build\config;E:\soui_demos\soui\fun_test\PRIVATE;E:\soui_demos\soui\fun_test;E:\soui_demos\soui\fun_test\PUBLIC;E:\soui_demos\soui\fun_test\include;E:\soui_demos\soui\utilities\include;E:\soui_demos\soui\third-part\gtest\include;E:\soui_demos\soui\components;E:\soui_demos\soui\SOUI\include;E:\soui_demos\soui\SOUI\interface;%(IncludePaths)</IncludePaths>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\fun_test\PRIVATE;E:\soui_demos\soui\fun_test;E:\soui_demos\soui\fun_test\PUBLIC;E:\soui_demos\soui\fun_test\include;E:\soui_demos\soui\utilities\include;E:\soui_demos\soui\third-part\gtest\include;E:\soui_demos\soui\components;E:\soui_demos\soui\SOUI\include;E:\soui_demos\soui\SOUI\interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\bin\Debug\soui4.lib;Msimg32.lib;..\bin\Debug\utilities4.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/soui_demos/soui/build/bin;E:/soui_demos/soui/build/bin/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/soui_demos/soui/build/bin/Debug/ipc_client.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/soui_demos/soui/build/bin/Debug/ipc_client.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\fun_test\PRIVATE;E:\soui_demos\soui\fun_test;E:\soui_demos\soui\fun_test\PUBLIC;E:\soui_demos\soui\fun_test\include;E:\soui_demos\soui\utilities\include;E:\soui_demos\soui\third-part\gtest\include;E:\soui_demos\soui\components;E:\soui_demos\soui\SOUI\include;E:\soui_demos\soui\SOUI\interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;_CRT_SECURE_NO_WARNINGS;_HAS_TR1_NAMESPACE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;UNICODE;_UNICODE;_WINDOWS;NDEBUG;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;_CRT_SECURE_NO_WARNINGS;_HAS_TR1_NAMESPACE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\fun_test\PRIVATE;E:\soui_demos\soui\fun_test;E:\soui_demos\soui\fun_test\PUBLIC;E:\soui_demos\soui\fun_test\include;E:\soui_demos\soui\utilities\include;E:\soui_demos\soui\third-part\gtest\include;E:\soui_demos\soui\components;E:\soui_demos\soui\SOUI\include;E:\soui_demos\soui\SOUI\interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;_CRT_SECURE_NO_WARNINGS;_HAS_TR1_NAMESPACE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <IncludePaths>E:\soui_demos\soui\build\config;E:\soui_demos\soui\fun_test\PRIVATE;E:\soui_demos\soui\fun_test;E:\soui_demos\soui\fun_test\PUBLIC;E:\soui_demos\soui\fun_test\include;E:\soui_demos\soui\utilities\include;E:\soui_demos\soui\third-part\gtest\include;E:\soui_demos\soui\components;E:\soui_demos\soui\SOUI\include;E:\soui_demos\soui\SOUI\interface;%(IncludePaths)</IncludePaths>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\fun_test\PRIVATE;E:\soui_demos\soui\fun_test;E:\soui_demos\soui\fun_test\PUBLIC;E:\soui_demos\soui\fun_test\include;E:\soui_demos\soui\utilities\include;E:\soui_demos\soui\third-part\gtest\include;E:\soui_demos\soui\components;E:\soui_demos\soui\SOUI\include;E:\soui_demos\soui\SOUI\interface;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\bin\Release\soui4.lib;Msimg32.lib;..\bin\Release\utilities4.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/soui_demos/soui/build/bin;E:/soui_demos/soui/build/bin/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/soui_demos/soui/build/bin/Release/ipc_client.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/soui_demos/soui/build/bin/Release/ipc_client.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\soui_demos\soui\fun_test\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/soui_demos/soui/fun_test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+F:\cmake-3.17.2-win64-x64\bin\cmake.exe -SE:/soui_demos/soui -BE:/soui_demos/soui/build --check-stamp-file E:/soui_demos/soui/build/fun_test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\soui_demos\soui\build\fun_test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/soui_demos/soui/fun_test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+F:\cmake-3.17.2-win64-x64\bin\cmake.exe -SE:/soui_demos/soui -BE:/soui_demos/soui/build --check-stamp-file E:/soui_demos/soui/build/fun_test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\soui_demos\soui\build\fun_test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\soui_demos\soui\fun_test\ScintillaWnd.h" />
+    <ClInclude Include="E:\soui_demos\soui\fun_test\common.h" />
+    <ClCompile Include="E:\soui_demos\soui\fun_test\ipc_client.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\soui_demos\soui\build\ZERO_CHECK.vcxproj">
+      <Project>{CF3B0646-5BD2-34DA-895F-A3261AEA35A8}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\soui_demos\soui\build\components\log4z\log4z.vcxproj">
+      <Project>{F822613E-299A-3ADF-9895-363110357B5B}</Project>
+      <Name>log4z</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\soui_demos\soui\build\components\render-gdi\render-gdi.vcxproj">
+      <Project>{3FB63213-B342-3462-B4BC-748EB067F803}</Project>
+      <Name>render-gdi</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\soui_demos\soui\build\components\render-skia\render-skia.vcxproj">
+      <Project>{302135E4-03FF-36B8-A8D3-E71A9800637D}</Project>
+      <Name>render-skia</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\soui_demos\soui\build\components\resprovider-zip\resprovider-zip.vcxproj">
+      <Project>{2DE9CBFE-9615-3D23-9064-E327E6CDBEDC}</Project>
+      <Name>resprovider-zip</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\soui_demos\soui\build\SOUI\soui4.vcxproj">
+      <Project>{9B43F5B3-D366-3D01-949E-E6DE18A883AF}</Project>
+      <Name>soui4</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\soui_demos\soui\build\components\TaskLoop\taskloop.vcxproj">
+      <Project>{9DD8CE22-DBBD-3948-93B9-83DEC4BC1104}</Project>
+      <Name>taskloop</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\soui_demos\soui\build\utilities\utilities4.vcxproj">
+      <Project>{FF07D49F-4C1D-3A07-AB46-641109889292}</Project>
+      <Name>utilities4</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

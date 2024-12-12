@@ -1,0 +1,27 @@
+# CMake generation dependency list for this directory.
+E:/soui_demos/soui/CMakeLists.txt
+E:/soui_demos/soui/__cmake/global.cmake
+E:/soui_demos/soui/__cmake/internal_utils.cmake
+E:/soui_demos/soui/build/CMakeFiles/3.17.2/CMakeCCompiler.cmake
+E:/soui_demos/soui/build/CMakeFiles/3.17.2/CMakeCXXCompiler.cmake
+E:/soui_demos/soui/build/CMakeFiles/3.17.2/CMakeRCCompiler.cmake
+E:/soui_demos/soui/build/CMakeFiles/3.17.2/CMakeSystem.cmake
+E:/soui_demos/soui/config/build.cfg.in
+E:/soui_demos/soui/config/config.h.in
+F:/cmake-3.17.2-win64-x64/share/cmake-3.17/Modules/CMakeCInformation.cmake
+F:/cmake-3.17.2-win64-x64/share/cmake-3.17/Modules/CMakeCXXInformation.cmake
+F:/cmake-3.17.2-win64-x64/share/cmake-3.17/Modules/CMakeCommonLanguageInclude.cmake
+F:/cmake-3.17.2-win64-x64/share/cmake-3.17/Modules/CMakeGenericSystem.cmake
+F:/cmake-3.17.2-win64-x64/share/cmake-3.17/Modules/CMakeInitializeConfigs.cmake
+F:/cmake-3.17.2-win64-x64/share/cmake-3.17/Modules/CMakeLanguageInformation.cmake
+F:/cmake-3.17.2-win64-x64/share/cmake-3.17/Modules/CMakeRCInformation.cmake
+F:/cmake-3.17.2-win64-x64/share/cmake-3.17/Modules/CMakeSystemSpecificInformation.cmake
+F:/cmake-3.17.2-win64-x64/share/cmake-3.17/Modules/CMakeSystemSpecificInitialize.cmake
+F:/cmake-3.17.2-win64-x64/share/cmake-3.17/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+F:/cmake-3.17.2-win64-x64/share/cmake-3.17/Modules/Compiler/MSVC-C.cmake
+F:/cmake-3.17.2-win64-x64/share/cmake-3.17/Modules/Compiler/MSVC-CXX.cmake
+F:/cmake-3.17.2-win64-x64/share/cmake-3.17/Modules/Platform/Windows-MSVC-C.cmake
+F:/cmake-3.17.2-win64-x64/share/cmake-3.17/Modules/Platform/Windows-MSVC-CXX.cmake
+F:/cmake-3.17.2-win64-x64/share/cmake-3.17/Modules/Platform/Windows-MSVC.cmake
+F:/cmake-3.17.2-win64-x64/share/cmake-3.17/Modules/Platform/Windows.cmake
+F:/cmake-3.17.2-win64-x64/share/cmake-3.17/Modules/Platform/WindowsPaths.cmake

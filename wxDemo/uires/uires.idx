@@ -14,6 +14,7 @@
 	  <file name="XML_PAGE_PERSONALCOMM" path="xml\page_comm_personal.xml" />
 
 	  <file name="XML_DLG_EMOJI" path="xml\dlg_emoji.xml" />
+	  <file name="XML_DLG_SNAPSHOT" path="xml\dlg_snapshot.xml" />
   </LAYOUT>
   
   <values>

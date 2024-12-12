@@ -47,6 +47,15 @@
     <ClCompile Include="EmojiDlg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CWindowEnumer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSnapshotDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SSnapshotCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="wxDemo.rc">
@@ -80,6 +89,21 @@
     </ClInclude>
     <ClInclude Include="CEmotionTileViewAdapter.h">
       <Filter>适配器</Filter>
+    </ClInclude>
+    <ClInclude Include="CWindowEnumer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSnapshotDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CBitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGdiDc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SSnapshotCtrl.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -131,6 +155,9 @@
       <Filter>SoUI Resource</Filter>
     </Xml>
     <Xml Include="uires\xml\dlg_emoji.xml">
+      <Filter>SoUI Resource</Filter>
+    </Xml>
+    <Xml Include="uires\xml\dlg_snapshot.xml">
       <Filter>SoUI Resource</Filter>
     </Xml>
   </ItemGroup>

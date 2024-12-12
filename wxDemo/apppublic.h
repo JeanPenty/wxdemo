@@ -13,3 +13,16 @@ typedef struct _tagCustomizeTime
 	int Second;
 }CustomizeTime;
 
+enum EcPosType
+{
+	Null = -1,
+	TopLeft,
+	TopCenter,
+	TopRight,
+	RightCenter,
+	BottomRight,
+	BottomCenter,
+	BottomLeft,
+	LeftCenter,
+	SelectRect,
+};

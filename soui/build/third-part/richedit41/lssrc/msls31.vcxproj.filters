@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\autonum.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\break.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\chnutils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\dispmain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\dispmisc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\disptext.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\dispul.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\dnutils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\enumcore.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\hih.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lnutils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lscontxt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lscrline.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lscrsubl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lsdnfin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lsdnset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lsdntext.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lsdsply.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lsdssubl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lsensubl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lsenum.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lsfetch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lsqcore.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lsqline.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lsqsubl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lssetdoc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lsstring.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lssubset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lstfset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lstxtbr1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lstxtbrk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lstxtbrs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lstxtcmp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lstxtfmt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lstxtglf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lstxtini.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lstxtjst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lstxtmap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lstxtmod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lstxtnti.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lstxtqry.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lstxtscl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lstxttab.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\lstxtwrd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\ntiman.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\objhelp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\prepdisp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\qheap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\robj.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\ruby.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\sobjhelp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\sublutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\tabutils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\tatenak.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\textenum.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\unixfunctions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\vruby.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\warichu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\third-part\richedit41\lssrc\zqfromza.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\breakrec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\brkcls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\brkcond.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\brkkind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\brko.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\brkpos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\dispi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\endres.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\exptype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\fmti.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\fmtres.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\gmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\gprop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\heights.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\hih.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\kamount.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\locchnk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsbrjust.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsbrk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lscbk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lscell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lschnke.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lschp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lscontxt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lscrline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lscrsubl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsdefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsdevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsdevres.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsdnfin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsdnset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsdocinf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsdsply.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsdssubl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsems.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsensubl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsenum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsexpan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsexpinf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsffi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsfgi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsfrun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lshyph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsimeth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lskalign.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lskeop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lskjust.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsksplat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsktab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lskysr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lslinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lspairac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lspap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lspract.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsqin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsqline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsqout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsqsinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsqsubl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lssetdoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsstinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lssubset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lstabs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lstflow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lstfset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lstxm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lstxtcfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\lsulinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\mwcls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\objdim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\pbrko.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\pcelldet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\pdispi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\pdobj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\pfmti.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\pheights.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\pilsobj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plnobj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plocchnk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plscbk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plscell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plschp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plsdnode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plsdocin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plsems.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plsfgi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plsfrun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plshyph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plsline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plspap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plsqin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plsqout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plsqsinf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plsrun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plsstinf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plssubl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plstabs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plstxm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plstxtcf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\plsulinf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\pobjdim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\posichnk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\pposichn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\robj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\ruby.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\tatenak.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\vruby.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\warichu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\third-part\richedit41\lsinc\zqfromza.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\soui_demos\soui\third-part\richedit41\lssrc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{12DD08E1-E772-3AD6-AEC9-A9AD349F4A93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2A1247C9-BEEA-38B1-B338-B9DCCFA9DCD7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

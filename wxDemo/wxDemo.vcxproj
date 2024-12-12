@@ -187,8 +187,11 @@
   <ItemGroup>
     <ClCompile Include="CGlobalUnits.cpp" />
     <ClCompile Include="CLvMessageAdapter.cpp" />
+    <ClCompile Include="CSnapshotDlg.cpp" />
+    <ClCompile Include="CWindowEnumer.cpp" />
     <ClCompile Include="EmojiDlg.cpp" />
     <ClCompile Include="MainDlg.cpp" />
+    <ClCompile Include="SSnapshotCtrl.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -203,12 +206,17 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="apppublic.h" />
+    <ClInclude Include="CBitmap.h" />
     <ClInclude Include="CEmotionTileViewAdapter.h" />
+    <ClInclude Include="CGdiDc.h" />
     <ClInclude Include="CGlobalUnits.h" />
     <ClInclude Include="CLvMessageAdapter.h" />
+    <ClInclude Include="CSnapshotDlg.h" />
+    <ClInclude Include="CWindowEnumer.h" />
     <ClInclude Include="EmojiDlg.h" />
     <ClInclude Include="MainDlg.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="SSnapshotCtrl.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="trayicon\SShellTray.h" />
   </ItemGroup>
@@ -238,6 +246,7 @@
     <Xml Include="uires\values\string.xml" />
     <Xml Include="uires\xml\dlg_emoji.xml" />
     <Xml Include="uires\xml\dlg_main.xml" />
+    <Xml Include="uires\xml\dlg_snapshot.xml" />
     <Xml Include="uires\xml\menu_tray.xml" />
     <Xml Include="uires\xml\page_collect.xml" />
     <Xml Include="uires\xml\page_comm_filehelper.xml" />

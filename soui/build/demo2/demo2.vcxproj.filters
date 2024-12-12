@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\soui_demos\soui\demo2\ComLoader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\demo2\TestLvAdapter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\soui_demos\soui\demo2\demo2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\soui_demos\soui\demo2\ComLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\demo2\TestLvAdapter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\demo2\res\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\soui_demos\soui\demo2\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\soui_demos\soui\demo2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\soui_demos\soui\demo2\uires\image\soui.ico">
+      <Filter>SoUI Resouece</Filter>
+    </None>
+    <None Include="E:\soui_demos\soui\demo2\uires\uires.idx">
+      <Filter>SoUI Resouece</Filter>
+    </None>
+    <None Include="E:\soui_demos\soui\demo2\res\soui_res.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="E:\soui_demos\soui\demo2\demo2.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <XML Include="E:\soui_demos\soui\demo2\uires\uidef\init.xml">
+      <Filter>SoUI Resouece</Filter>
+    </XML>
+    <XML Include="E:\soui_demos\soui\demo2\uires\values\color.xml">
+      <Filter>SoUI Resouece</Filter>
+    </XML>
+    <XML Include="E:\soui_demos\soui\demo2\uires\values\skin.xml">
+      <Filter>SoUI Resouece</Filter>
+    </XML>
+    <XML Include="E:\soui_demos\soui\demo2\uires\values\string.xml">
+      <Filter>SoUI Resouece</Filter>
+    </XML>
+    <XML Include="E:\soui_demos\soui\demo2\uires\xml\dlg_main.xml">
+      <Filter>SoUI Resouece</Filter>
+    </XML>
+    <XML Include="E:\soui_demos\soui\demo2\uires\xml\dlg_test.xml">
+      <Filter>SoUI Resouece</Filter>
+    </XML>
+    <XML Include="E:\soui_demos\soui\demo2\uires\xml\menu_test.xml">
+      <Filter>SoUI Resouece</Filter>
+    </XML>
+    <XML Include="E:\soui_demos\soui\demo2\uires\xml\menuex_test.xml">
+      <Filter>SoUI Resouece</Filter>
+    </XML>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{12DD08E1-E772-3AD6-AEC9-A9AD349F4A93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8FC59EBD-3D3D-38CA-A941-73F23E6C1FEF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoUI Resouece">
+      <UniqueIdentifier>{170116D9-466F-3E0D-9FD3-2FD3529B312E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2A1247C9-BEEA-38B1-B338-B9DCCFA9DCD7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

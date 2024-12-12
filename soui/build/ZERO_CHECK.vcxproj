@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CF3B0646-5BD2-34DA-895F-A3261AEA35A8}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\soui_demos\soui\build\CMakeFiles\8b886cebedd2408765d3c4db19193d9c\generate.stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+F:\cmake-3.17.2-win64-x64\bin\cmake.exe -SE:/soui_demos/soui -BE:/soui_demos/soui/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/soui_demos/soui/build/SOUI4.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\soui_demos\soui\CMakeLists.txt;E:\soui_demos\soui\SOUI\CMakeLists.txt;E:\soui_demos\soui\__cmake\global.cmake;E:\soui_demos\soui\__cmake\internal_utils.cmake;E:\soui_demos\soui\build\CMakeFiles\3.17.2\CMakeASM_MASMCompiler.cmake;E:\soui_demos\soui\build\CMakeFiles\3.17.2\CMakeCCompiler.cmake;E:\soui_demos\soui\build\CMakeFiles\3.17.2\CMakeCXXCompiler.cmake;E:\soui_demos\soui\build\CMakeFiles\3.17.2\CMakeRCCompiler.cmake;E:\soui_demos\soui\build\CMakeFiles\3.17.2\CMakeSystem.cmake;E:\soui_demos\soui\components\CMakeLists.txt;E:\soui_demos\soui\components\SIpcObject\CMakeLists.txt;E:\soui_demos\soui\components\ScriptModule-LUA\CMakeLists.txt;E:\soui_demos\soui\components\TaskLoop\CMakeLists.txt;E:\soui_demos\soui\components\httpclient\CMakeLists.txt;E:\soui_demos\soui\components\imgdecoder-gdip\CMakeLists.txt;E:\soui_demos\soui\components\imgdecoder-png\CMakeLists.txt;E:\soui_demos\soui\components\imgdecoder-stb\CMakeLists.txt;E:\soui_demos\soui\components\imgdecoder-wic\CMakeLists.txt;E:\soui_demos\soui\components\log4z\CMakeLists.txt;E:\soui_demos\soui\components\render-d2d\CMakeLists.txt;E:\soui_demos\soui\components\render-gdi\CMakeLists.txt;E:\soui_demos\soui\components\render-skia\CMakeLists.txt;E:\soui_demos\soui\components\resprovider-7zip\CMakeLists.txt;E:\soui_demos\soui\components\resprovider-zip\CMakeLists.txt;E:\soui_demos\soui\components\translator\CMakeLists.txt;E:\soui_demos\soui\config\build.cfg.in;E:\soui_demos\soui\config\config.h.in;E:\soui_demos\soui\demo\CMakeLists.txt;E:\soui_demos\soui\demo2\CMakeLists.txt;E:\soui_demos\soui\fun_test\CMakeLists.txt;E:\soui_demos\soui\soui-sys-resource\CMakeLists.txt;E:\soui_demos\soui\third-part\7z\CMakeLists.txt;E:\soui_demos\soui\third-part\CMakeLists.txt;E:\soui_demos\soui\third-part\Scintilla\CMakeLists.txt;E:\soui_demos\soui\third-part\gtest\CMakeLists.txt;E:\soui_demos\soui\third-part\jsoncpp\CMakeLists.txt;E:\soui_demos\soui\third-part\lua-54\CMakeLists.txt;E:\soui_demos\soui\third-part\mhook\CMakeLists.txt;E:\soui_demos\soui\third-part\png\CMakeLists.txt;E:\soui_demos\soui\third-part\richedit41\CMakeLists.txt;E:\soui_demos\soui\third-part\richedit41\lssrc\CMakeLists.txt;E:\soui_demos\soui\third-part\richedit41\re41\CMakeLists.txt;E:\soui_demos\soui\third-part\skia\CMakeLists.txt;E:\soui_demos\soui\third-part\smiley\CMakeLists.txt;E:\soui_demos\soui\third-part\sqlite3\CMakeLists.txt;E:\soui_demos\soui\third-part\zlib\CMakeLists.txt;E:\soui_demos\soui\utilities\CMakeLists.txt;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\CMakeASMInformation.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\CMakeASM_MASMInformation.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\CMakeCInformation.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\CMakeRCInformation.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\Platform\Windows.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\soui_demos\soui\build\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\third-part\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\third-part\zlib\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\third-part\png\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\third-part\lua-54\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\third-part\sqlite3\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\third-part\jsoncpp\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\third-part\gtest\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\third-part\mhook\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\third-part\smiley\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\third-part\7z\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\third-part\Scintilla\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\third-part\skia\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\third-part\richedit41\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\third-part\richedit41\lssrc\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\third-part\richedit41\re41\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\utilities\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\SOUI\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\soui-sys-resource\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\components\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\components\imgdecoder-png\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\components\imgdecoder-stb\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\components\translator\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\components\log4z\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\components\TaskLoop\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\components\imgdecoder-wic\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\components\imgdecoder-gdip\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\components\resprovider-7zip\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\components\render-d2d\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\components\ScriptModule-LUA\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\components\httpclient\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\components\SIpcObject\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\components\resprovider-zip\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\components\render-gdi\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\components\render-skia\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\demo\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\demo2\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\fun_test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+F:\cmake-3.17.2-win64-x64\bin\cmake.exe -SE:/soui_demos/soui -BE:/soui_demos/soui/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/soui_demos/soui/build/SOUI4.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\soui_demos\soui\CMakeLists.txt;E:\soui_demos\soui\SOUI\CMakeLists.txt;E:\soui_demos\soui\__cmake\global.cmake;E:\soui_demos\soui\__cmake\internal_utils.cmake;E:\soui_demos\soui\build\CMakeFiles\3.17.2\CMakeASM_MASMCompiler.cmake;E:\soui_demos\soui\build\CMakeFiles\3.17.2\CMakeCCompiler.cmake;E:\soui_demos\soui\build\CMakeFiles\3.17.2\CMakeCXXCompiler.cmake;E:\soui_demos\soui\build\CMakeFiles\3.17.2\CMakeRCCompiler.cmake;E:\soui_demos\soui\build\CMakeFiles\3.17.2\CMakeSystem.cmake;E:\soui_demos\soui\components\CMakeLists.txt;E:\soui_demos\soui\components\SIpcObject\CMakeLists.txt;E:\soui_demos\soui\components\ScriptModule-LUA\CMakeLists.txt;E:\soui_demos\soui\components\TaskLoop\CMakeLists.txt;E:\soui_demos\soui\components\httpclient\CMakeLists.txt;E:\soui_demos\soui\components\imgdecoder-gdip\CMakeLists.txt;E:\soui_demos\soui\components\imgdecoder-png\CMakeLists.txt;E:\soui_demos\soui\components\imgdecoder-stb\CMakeLists.txt;E:\soui_demos\soui\components\imgdecoder-wic\CMakeLists.txt;E:\soui_demos\soui\components\log4z\CMakeLists.txt;E:\soui_demos\soui\components\render-d2d\CMakeLists.txt;E:\soui_demos\soui\components\render-gdi\CMakeLists.txt;E:\soui_demos\soui\components\render-skia\CMakeLists.txt;E:\soui_demos\soui\components\resprovider-7zip\CMakeLists.txt;E:\soui_demos\soui\components\resprovider-zip\CMakeLists.txt;E:\soui_demos\soui\components\translator\CMakeLists.txt;E:\soui_demos\soui\config\build.cfg.in;E:\soui_demos\soui\config\config.h.in;E:\soui_demos\soui\demo\CMakeLists.txt;E:\soui_demos\soui\demo2\CMakeLists.txt;E:\soui_demos\soui\fun_test\CMakeLists.txt;E:\soui_demos\soui\soui-sys-resource\CMakeLists.txt;E:\soui_demos\soui\third-part\7z\CMakeLists.txt;E:\soui_demos\soui\third-part\CMakeLists.txt;E:\soui_demos\soui\third-part\Scintilla\CMakeLists.txt;E:\soui_demos\soui\third-part\gtest\CMakeLists.txt;E:\soui_demos\soui\third-part\jsoncpp\CMakeLists.txt;E:\soui_demos\soui\third-part\lua-54\CMakeLists.txt;E:\soui_demos\soui\third-part\mhook\CMakeLists.txt;E:\soui_demos\soui\third-part\png\CMakeLists.txt;E:\soui_demos\soui\third-part\richedit41\CMakeLists.txt;E:\soui_demos\soui\third-part\richedit41\lssrc\CMakeLists.txt;E:\soui_demos\soui\third-part\richedit41\re41\CMakeLists.txt;E:\soui_demos\soui\third-part\skia\CMakeLists.txt;E:\soui_demos\soui\third-part\smiley\CMakeLists.txt;E:\soui_demos\soui\third-part\sqlite3\CMakeLists.txt;E:\soui_demos\soui\third-part\zlib\CMakeLists.txt;E:\soui_demos\soui\utilities\CMakeLists.txt;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\CMakeASMInformation.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\CMakeASM_MASMInformation.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\CMakeCInformation.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\CMakeRCInformation.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\Platform\Windows.cmake;F:\cmake-3.17.2-win64-x64\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\soui_demos\soui\build\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\third-part\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\third-part\zlib\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\third-part\png\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\third-part\lua-54\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\third-part\sqlite3\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\third-part\jsoncpp\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\third-part\gtest\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\third-part\mhook\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\third-part\smiley\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\third-part\7z\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\third-part\Scintilla\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\third-part\skia\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\third-part\richedit41\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\third-part\richedit41\lssrc\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\third-part\richedit41\re41\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\utilities\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\SOUI\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\soui-sys-resource\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\components\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\components\imgdecoder-png\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\components\imgdecoder-stb\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\components\translator\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\components\log4z\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\components\TaskLoop\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\components\imgdecoder-wic\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\components\imgdecoder-gdip\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\components\resprovider-7zip\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\components\render-d2d\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\components\ScriptModule-LUA\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\components\httpclient\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\components\SIpcObject\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\components\resprovider-zip\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\components\render-gdi\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\components\render-skia\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\demo\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\demo2\CMakeFiles\generate.stamp;E:\soui_demos\soui\build\fun_test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

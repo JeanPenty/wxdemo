@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FF07D49F-4C1D-3A07-AB46-641109889292}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>utilities4</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\soui_demos\soui\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">utilities4.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">utilities4</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\soui_demos\soui\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">utilities4.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">utilities4</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\utilities\include;E:\soui_demos\soui\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;UNICODE;_UNICODE;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;UTILITIES_EXPORTS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";utilities4_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;UNICODE;_UNICODE;_DEBUG;_WINDOWS;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;UTILITIES_EXPORTS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";utilities4_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\utilities\include;E:\soui_demos\soui\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;UNICODE;_UNICODE;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;UTILITIES_EXPORTS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";utilities4_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <IncludePaths>E:\soui_demos\soui\build\config;E:\soui_demos\soui\utilities\include;E:\soui_demos\soui\utilities;%(IncludePaths)</IncludePaths>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\utilities\include;E:\soui_demos\soui\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/soui_demos/soui/build/bin/Debug/utilities4.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/soui_demos/soui/build/bin/Debug/utilities4.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\utilities\include;E:\soui_demos\soui\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;UTILITIES_EXPORTS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";utilities4_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;UNICODE;_UNICODE;_WINDOWS;NDEBUG;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;UTILITIES_EXPORTS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";utilities4_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\utilities\include;E:\soui_demos\soui\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;UTILITIES_EXPORTS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";utilities4_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <IncludePaths>E:\soui_demos\soui\build\config;E:\soui_demos\soui\utilities\include;E:\soui_demos\soui\utilities;%(IncludePaths)</IncludePaths>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\utilities\include;E:\soui_demos\soui\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/soui_demos/soui/build/bin/Release/utilities4.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/soui_demos/soui/build/bin/Release/utilities4.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\soui_demos\soui\utilities\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/soui_demos/soui/utilities/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+F:\cmake-3.17.2-win64-x64\bin\cmake.exe -SE:/soui_demos/soui -BE:/soui_demos/soui/build --check-stamp-file E:/soui_demos/soui/build/utilities/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\soui_demos\soui\build\utilities\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/soui_demos/soui/utilities/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+F:\cmake-3.17.2-win64-x64\bin\cmake.exe -SE:/soui_demos/soui -BE:/soui_demos/soui/build --check-stamp-file E:/soui_demos/soui/build/utilities/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\soui_demos\soui\build\utilities\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\soui_demos\soui\utilities\src\gdialpha.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\utilities\src\helper\SAutoBuf.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\utilities\src\helper\SCriticalSection.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\utilities\src\helper\SRwLock.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\utilities\src\helper\SSemaphore.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\utilities\src\pugixml\pugixml.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\utilities\src\soui_mem_wrapper.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\utilities\src\string\sstringa.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\utilities\src\string\sstringdata.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\utilities\src\string\sstringw.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\utilities\src\string\strcpcvt.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\utilities\src\utilities.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\utilities\src\xml\SXml.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\utilities\cursoricon\cursoricon.cpp" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\atl.mini\SComCli.h" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\atl.mini\SComHelper.h" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\atl.mini\atldef.h" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\com-loader.hpp" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\gdialpha.h" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\helper\SAutoBuf.h" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\helper\SCriticalSection.h" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\helper\SEmptyable.hpp" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\helper\SNoCopyable.hpp" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\helper\SRwLock.h" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\helper\SSemaphore.h" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\helper\SSharedPtr.hpp" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\helper\obj-ref-impl.hpp" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\interface\obj-ref-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\interface\sstring-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\interface\sxml-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\pugixml\pugiconfig.hpp" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\pugixml\pugixml.hpp" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\sdef.h" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\sguid.h" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\snew.h" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\soui_mem_wrapper.h" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\souicoll.h" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\stdint\stdint.h" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\string\sstringa.h" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\string\sstringdata.h" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\string\sstringw.h" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\string\strcpcvt.h" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\string\tstring.h" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\utilities-def.h" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\utilities.h" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\wtl.mini\msgcrack.h" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\wtl.mini\souimisc.h" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\include\xml\SXml.h" />
+    <ClInclude Include="E:\soui_demos\soui\utilities\resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\soui_demos\soui\build\ZERO_CHECK.vcxproj">
+      <Project>{CF3B0646-5BD2-34DA-895F-A3261AEA35A8}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

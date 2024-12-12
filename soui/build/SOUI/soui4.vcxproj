@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9B43F5B3-D366-3D01-949E-E6DE18A883AF}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>soui4</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\soui_demos\soui\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">soui4.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">soui4</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\soui_demos\soui\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">soui4.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">soui4</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\SOUI;E:\soui_demos\soui\SOUI\include;E:\soui_demos\soui\SOUI\interface;E:\soui_demos\soui\utilities\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;UNICODE;_UNICODE;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;SOUI_EXPORTS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";soui4_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;UNICODE;_UNICODE;_DEBUG;_WINDOWS;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;SOUI_EXPORTS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";soui4_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\SOUI;E:\soui_demos\soui\SOUI\include;E:\soui_demos\soui\SOUI\interface;E:\soui_demos\soui\utilities\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;UNICODE;_UNICODE;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;SOUI_EXPORTS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";soui4_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <IncludePaths>E:\soui_demos\soui\build\config;E:\soui_demos\soui\SOUI;E:\soui_demos\soui\SOUI\include;E:\soui_demos\soui\SOUI\interface;E:\soui_demos\soui\utilities\include;%(IncludePaths)</IncludePaths>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\SOUI;E:\soui_demos\soui\SOUI\include;E:\soui_demos\soui\SOUI\interface;E:\soui_demos\soui\utilities\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\bin\Debug\utilities4.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/soui_demos/soui/build/bin/Debug/soui4.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/soui_demos/soui/build/bin/Debug/soui4.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\SOUI;E:\soui_demos\soui\SOUI\include;E:\soui_demos\soui\SOUI\interface;E:\soui_demos\soui\utilities\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;SOUI_EXPORTS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";soui4_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;UNICODE;_UNICODE;_WINDOWS;NDEBUG;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;SOUI_EXPORTS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";soui4_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\SOUI;E:\soui_demos\soui\SOUI\include;E:\soui_demos\soui\SOUI\interface;E:\soui_demos\soui\utilities\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;SOUI_EXPORTS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";soui4_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <IncludePaths>E:\soui_demos\soui\build\config;E:\soui_demos\soui\SOUI;E:\soui_demos\soui\SOUI\include;E:\soui_demos\soui\SOUI\interface;E:\soui_demos\soui\utilities\include;%(IncludePaths)</IncludePaths>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\SOUI;E:\soui_demos\soui\SOUI\include;E:\soui_demos\soui\SOUI\interface;E:\soui_demos\soui\utilities\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\bin\Release\utilities4.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/soui_demos/soui/build/bin/Release/soui4.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/soui_demos/soui/build/bin/Release/soui4.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\soui_demos\soui\SOUI\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/soui_demos/soui/SOUI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+F:\cmake-3.17.2-win64-x64\bin\cmake.exe -SE:/soui_demos/soui -BE:/soui_demos/soui/build --check-stamp-file E:/soui_demos/soui/build/SOUI/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\soui_demos\soui\build\SOUI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/soui_demos/soui/SOUI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+F:\cmake-3.17.2-win64-x64\bin\cmake.exe -SE:/soui_demos/soui -BE:/soui_demos/soui/build --check-stamp-file E:/soui_demos/soui/build/SOUI/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\soui_demos\soui\build\SOUI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\SApp.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\SGuidDef.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\SInitGuid.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\SouiFactory.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\activex\SBStr.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\animation\SAlphaAnimation.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\animation\SAnimation.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\animation\SAnimationSet.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\animation\SInterpolatorImpl.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\animation\SRotateAnimation.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\animation\STransformation.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\animation\STranslateAnimation.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\animation\ScaleAnimation.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\control\SActiveX.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\control\SCalendar.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\control\SCaption.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\control\SCmnCtrl.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\control\SComboBase.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\control\SComboBox.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\control\SComboView.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\control\SDateTimePicker.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\control\SDropDown.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\control\SEdit.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\control\SFrame.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\control\SHeaderCtrl.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\control\SHotKeyCtrl.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\control\SListCtrl.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\control\SListView.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\control\SListbox.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\control\SMCListView.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\control\SMenuBar.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\control\SMessageBox.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\control\SRealWnd.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\control\SRichEdit.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\control\SScrollbar.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\control\SSliderBar.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\control\SSpinButtonCtrl.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\control\SSplitWnd.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\control\SStackView.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\control\STabCtrl.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\control\STileView.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\control\STree.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\control\STreeCtrl.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\control\STreeView.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\control\SouiCtrls.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\core\SAccelerator.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\core\SCaret.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\core\SCmnMap.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\core\SDefine.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\core\SDropTargetDispatcher.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\core\SFocusManager.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\core\SGradient.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\core\SHostDialog.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\core\SHostPresenter.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\core\SHostWnd.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\core\SItemPanel.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\core\SMsgLoop.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\core\SNativeWnd.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\core\SNcPainter.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\core\SObjectFactory.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\core\SPanel.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\core\SScrollBarHandler.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\core\SSingleton.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\core\SSingleton2.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\core\SSingletonMap.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\core\SSkin.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\core\SSkinObjBase.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\core\STimerlineHandlerMgr.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\core\SWindowMgr.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\core\SWnd.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\core\SWndAccessible.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\core\SWndContainerImpl.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\core\SWndStyle.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\event\SEventCrack.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\event\SEventSet.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\event\SEventSlot.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\event\SEvents.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\event\SNotifyCenter.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\helper\SAdapterBase.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\helper\SAppDir.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\helper\SAssertFmt.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\helper\SAttrCracker.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\helper\SColor.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\helper\SDIBHelper.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\helper\SDpiHelper.hpp" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\helper\SDpiScale.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\helper\SDragWnd.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\helper\SFunctor.hpp" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\helper\SHostMgr.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\helper\SIpcParamHelper.hpp" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\helper\SListViewItemLocator.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\helper\SMemDC.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\helper\SMenu.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\helper\SMenuEx.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\helper\SMenuWndHook.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\helper\SResID.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\helper\STileViewItemLocator.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\helper\STime.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\helper\STimer.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\helper\STimerGenerator.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\helper\SToolTip.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\helper\SUnknown.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\helper\SplitString.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\helper\SwndFinder.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\helper\SwndMsgCracker.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\helper\slog.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\helper\swndspy.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\SAccelerator-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\SAdapter-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\SAnimation-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\SAttrStorage-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\SCtrl-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\SEvtArgs-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\SFactory-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\SGradient-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\SHostPresenter-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\SHttpClient-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\SImgDecoder-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\SListViewItemLocator-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\SMatrix-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\SMessageBox-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\SMsgLoop-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\SNativeWnd-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\SNcPainter-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\SNotifyCenter-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\SObjFactory-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\SPathEffect-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\SRealWndHandler-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\SRender-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\SResProvider-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\SResProviderMgr-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\SRunnable-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\SScriptModule-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\SSkinPool-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\SSkinobj-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\STaskLoop-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\STileViewItemLocator-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\STimelineHandler-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\STimer-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\STransform-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\STranslator-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\STreeViewItemLocator-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\SValueAnimator-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\SWindow-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\SWndContainer-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\SobjectApi.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\sacchelper-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\saccproxy-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\sapp-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\scaret-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\shostwnd-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\sinterpolator-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\sipcobj-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\slayout-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\slog-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\smenu-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\smenuex-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\sobject-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\interface\stooltip-i.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\layout\SGridLayout.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\layout\SGridLayoutParamStruct.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\layout\SLayoutSize.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\layout\SLinearLayout.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\layout\SLinearLayoutParamStruct.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\layout\SouiLayout.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\layout\SouiLayoutParamStruct.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\matrix\SCamera.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\matrix\SFloat.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\matrix\SFloatBits.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\matrix\SMatrix.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\matrix\SPoint.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\matrix\SRect.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\msaa\SAccProxyCmnCtrl.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\msaa\SAccProxyWindow.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\proxy\SCtrlProxy.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\proxy\SHostWndProxy.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\proxy\SPanelProxy.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\proxy\SWindowProxy.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\res.mgr\SDpiAwareFont.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\res.mgr\SFontInfo.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\res.mgr\SFontPool.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\res.mgr\SGradientPool.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\res.mgr\SNamedValue.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\res.mgr\SObjDefAttr.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\res.mgr\SResProvider.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\res.mgr\SResProviderMgr.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\res.mgr\SSkinPool.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\res.mgr\SStylePool.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\res.mgr\SUiDef.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\sobject\Sobject.hpp" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\soui-version.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\soui_exp.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\souistd.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\valueAnimator\SValueAnimator.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\include\valueAnimator\TypeEvaluator.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\resource.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\src\activex\SAxContainer.h" />
+    <ClInclude Include="E:\soui_demos\soui\SOUI\src\activex\SAxUtil.h" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\SApp.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\SouiFactory.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\activex\SAxContainer.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\activex\SBStr.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\animation\SAlphaAnimation.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\animation\SAnimation.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\animation\SAnimationSet.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\animation\SInterpolatorImpl.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\animation\SRotateAnimation.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\animation\STransformation.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\animation\STranslateAnimation.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\animation\ScaleAnimation.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\control\SActiveX.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\control\SCalendar.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\control\SCaption.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\control\SCmnCtrl.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\control\SComboBase.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\control\SComboBox.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\control\SComboView.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\control\SDateTimePicker.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\control\SDropDown.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\control\SEdit.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\control\SFrame.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\control\SHeaderCtrl.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\control\SHotKeyCtrl.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\control\SListCtrl.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\control\SListView.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\control\SListbox.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\control\SMCListView.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\control\SMenuBar.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\control\SMessageBox.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\control\SRealWnd.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\control\SRichEdit.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\control\SScrollbar.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\control\SSliderBar.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\control\SSpinButtonCtrl.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\control\SSplitWnd.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\control\SStackView.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\control\STabCtrl.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\control\STileView.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\control\STreeCtrl.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\control\STreeView.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\core\SAccelerator.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\core\SCaret.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\core\SDropTargetDispatcher.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\core\SFocusManager.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\core\SGradient.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\core\SGuids.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\core\SHostDialog.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\core\SHostPresenter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\core\SItemPanel.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\core\SMsgLoop.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\core\SNativeWnd.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\core\SNcPainter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\core\SObjectFactory.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\core\SPanel.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\core\SScrollBarHandler.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\core\SSkin.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\core\SSkinObjBase.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\core\STimerlineHandlerMgr.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\core\SWindowMgr.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\core\Swnd.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\core\SwndAccessible.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\core\SwndContainerImpl.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\core\SwndStyle.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\core\shostwnd.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\event\SEventSet.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\event\SNotifyCenter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\helper\SAppDir.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\helper\SDIBHelper.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\helper\SDpiScale.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\helper\SDragWnd.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\helper\SHostMgr.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\helper\SListViewItemLocator.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\helper\SMemDC.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\helper\SMenu.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\helper\SMenuEx.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\helper\SMenuWndHook.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\helper\STileViewItemLocator.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\helper\STimer.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\helper\STimerGenerator.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\helper\SToolTip.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\helper\SwndFinder.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\helper\slog.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\helper\stime.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\layout\SGridLayout.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\layout\SLayoutSize.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\layout\SLinearLayout.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\layout\SouiLayout.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\matrix\SCamera.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\matrix\SMatrix.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\matrix\SPoint.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\matrix\SRect.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\msaa\SAccProxyCmnCtrl.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\msaa\SAccProxyWindow.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\res.mgr\SDpiAwareFont.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\res.mgr\SFontPool.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\res.mgr\SGradientPool.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\res.mgr\SNamedValue.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\res.mgr\SObjDefAttr.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\res.mgr\SResProvider.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\res.mgr\SResProviderMgr.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\res.mgr\SSkinPool.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\res.mgr\SStylePool.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\res.mgr\SUiDef.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\SOUI\src\valueAnimator\SValueAnimator.cpp" />
+    <ResourceCompile Include="E:\soui_demos\soui\SOUI\soui.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\soui_demos\soui\build\ZERO_CHECK.vcxproj">
+      <Project>{CF3B0646-5BD2-34DA-895F-A3261AEA35A8}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\soui_demos\soui\build\utilities\utilities4.vcxproj">
+      <Project>{FF07D49F-4C1D-3A07-AB46-641109889292}</Project>
+      <Name>utilities4</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

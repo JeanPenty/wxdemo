@@ -1,0 +1,1054 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{12112061-0C68-337A-90A9-41BB9B34869D}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>skia</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\soui_demos\soui\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">skia.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">skia</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\soui_demos\soui\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">skia.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">skia</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\third-part\skia\include\config;E:\soui_demos\soui\third-part\skia\include\core;E:\soui_demos\soui\third-part\skia\include\gpu;E:\soui_demos\soui\third-part\skia\include\images;E:\soui_demos\soui\third-part\skia\include\utils;E:\soui_demos\soui\third-part\skia\include\utils\win;E:\soui_demos\soui\third-part\skia\include\ports;E:\soui_demos\soui\third-part\skia\include\text;E:\soui_demos\soui\third-part\skia\include\effects;E:\soui_demos\soui\third-part\skia\include\pathops;E:\soui_demos\soui\third-part\skia\include\views;E:\soui_demos\soui\third-part\skia\src\core;E:\soui_demos\soui\third-part\skia\src\image;E:\soui_demos\soui\third-part\skia\src\opts;E:\soui_demos\soui\third-part\skia\src\lazy;E:\soui_demos\soui\third-part\skia\src\sfnt;E:\soui_demos\soui\third-part\skia\src\gpu;E:\soui_demos\soui\third-part\skia\src\utils;E:\soui_demos\soui\third-part\skia\..\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4355;4225;4244;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;UNICODE;_UNICODE;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;_CRT_SECURE_NO_WARNINGS;SK_IGNORE_ETC1_SUPPORT;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;UNICODE;_UNICODE;_DEBUG;_WINDOWS;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;_CRT_SECURE_NO_WARNINGS;SK_IGNORE_ETC1_SUPPORT;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\third-part\skia\include\config;E:\soui_demos\soui\third-part\skia\include\core;E:\soui_demos\soui\third-part\skia\include\gpu;E:\soui_demos\soui\third-part\skia\include\images;E:\soui_demos\soui\third-part\skia\include\utils;E:\soui_demos\soui\third-part\skia\include\utils\win;E:\soui_demos\soui\third-part\skia\include\ports;E:\soui_demos\soui\third-part\skia\include\text;E:\soui_demos\soui\third-part\skia\include\effects;E:\soui_demos\soui\third-part\skia\include\pathops;E:\soui_demos\soui\third-part\skia\include\views;E:\soui_demos\soui\third-part\skia\src\core;E:\soui_demos\soui\third-part\skia\src\image;E:\soui_demos\soui\third-part\skia\src\opts;E:\soui_demos\soui\third-part\skia\src\lazy;E:\soui_demos\soui\third-part\skia\src\sfnt;E:\soui_demos\soui\third-part\skia\src\gpu;E:\soui_demos\soui\third-part\skia\src\utils;E:\soui_demos\soui\third-part\skia\..\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;UNICODE;_UNICODE;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;_CRT_SECURE_NO_WARNINGS;SK_IGNORE_ETC1_SUPPORT;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <IncludePaths>E:\soui_demos\soui\build\config;E:\soui_demos\soui\third-part\skia\include\config;E:\soui_demos\soui\third-part\skia\include\core;E:\soui_demos\soui\third-part\skia\include\gpu;E:\soui_demos\soui\third-part\skia\include\images;E:\soui_demos\soui\third-part\skia\include\utils;E:\soui_demos\soui\third-part\skia\include\utils\win;E:\soui_demos\soui\third-part\skia\include\ports;E:\soui_demos\soui\third-part\skia\include\text;E:\soui_demos\soui\third-part\skia\include\effects;E:\soui_demos\soui\third-part\skia\include\pathops;E:\soui_demos\soui\third-part\skia\include\views;E:\soui_demos\soui\third-part\skia\src\core;E:\soui_demos\soui\third-part\skia\src\image;E:\soui_demos\soui\third-part\skia\src\opts;E:\soui_demos\soui\third-part\skia\src\lazy;E:\soui_demos\soui\third-part\skia\src\sfnt;E:\soui_demos\soui\third-part\skia\src\gpu;E:\soui_demos\soui\third-part\skia\src\utils;E:\soui_demos\soui\third-part\skia\..\freetype\include;%(IncludePaths)</IncludePaths>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\third-part\skia\include\config;E:\soui_demos\soui\third-part\skia\include\core;E:\soui_demos\soui\third-part\skia\include\gpu;E:\soui_demos\soui\third-part\skia\include\images;E:\soui_demos\soui\third-part\skia\include\utils;E:\soui_demos\soui\third-part\skia\include\utils\win;E:\soui_demos\soui\third-part\skia\include\ports;E:\soui_demos\soui\third-part\skia\include\text;E:\soui_demos\soui\third-part\skia\include\effects;E:\soui_demos\soui\third-part\skia\include\pathops;E:\soui_demos\soui\third-part\skia\include\views;E:\soui_demos\soui\third-part\skia\src\core;E:\soui_demos\soui\third-part\skia\src\image;E:\soui_demos\soui\third-part\skia\src\opts;E:\soui_demos\soui\third-part\skia\src\lazy;E:\soui_demos\soui\third-part\skia\src\sfnt;E:\soui_demos\soui\third-part\skia\src\gpu;E:\soui_demos\soui\third-part\skia\src\utils;E:\soui_demos\soui\third-part\skia\..\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\third-part\skia\include\config;E:\soui_demos\soui\third-part\skia\include\core;E:\soui_demos\soui\third-part\skia\include\gpu;E:\soui_demos\soui\third-part\skia\include\images;E:\soui_demos\soui\third-part\skia\include\utils;E:\soui_demos\soui\third-part\skia\include\utils\win;E:\soui_demos\soui\third-part\skia\include\ports;E:\soui_demos\soui\third-part\skia\include\text;E:\soui_demos\soui\third-part\skia\include\effects;E:\soui_demos\soui\third-part\skia\include\pathops;E:\soui_demos\soui\third-part\skia\include\views;E:\soui_demos\soui\third-part\skia\src\core;E:\soui_demos\soui\third-part\skia\src\image;E:\soui_demos\soui\third-part\skia\src\opts;E:\soui_demos\soui\third-part\skia\src\lazy;E:\soui_demos\soui\third-part\skia\src\sfnt;E:\soui_demos\soui\third-part\skia\src\gpu;E:\soui_demos\soui\third-part\skia\src\utils;E:\soui_demos\soui\third-part\skia\..\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4355;4225;4244;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;_CRT_SECURE_NO_WARNINGS;SK_IGNORE_ETC1_SUPPORT;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;UNICODE;_UNICODE;_WINDOWS;NDEBUG;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;_CRT_SECURE_NO_WARNINGS;SK_IGNORE_ETC1_SUPPORT;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\third-part\skia\include\config;E:\soui_demos\soui\third-part\skia\include\core;E:\soui_demos\soui\third-part\skia\include\gpu;E:\soui_demos\soui\third-part\skia\include\images;E:\soui_demos\soui\third-part\skia\include\utils;E:\soui_demos\soui\third-part\skia\include\utils\win;E:\soui_demos\soui\third-part\skia\include\ports;E:\soui_demos\soui\third-part\skia\include\text;E:\soui_demos\soui\third-part\skia\include\effects;E:\soui_demos\soui\third-part\skia\include\pathops;E:\soui_demos\soui\third-part\skia\include\views;E:\soui_demos\soui\third-part\skia\src\core;E:\soui_demos\soui\third-part\skia\src\image;E:\soui_demos\soui\third-part\skia\src\opts;E:\soui_demos\soui\third-part\skia\src\lazy;E:\soui_demos\soui\third-part\skia\src\sfnt;E:\soui_demos\soui\third-part\skia\src\gpu;E:\soui_demos\soui\third-part\skia\src\utils;E:\soui_demos\soui\third-part\skia\..\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;_CRT_SECURE_NO_WARNINGS;SK_IGNORE_ETC1_SUPPORT;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <IncludePaths>E:\soui_demos\soui\build\config;E:\soui_demos\soui\third-part\skia\include\config;E:\soui_demos\soui\third-part\skia\include\core;E:\soui_demos\soui\third-part\skia\include\gpu;E:\soui_demos\soui\third-part\skia\include\images;E:\soui_demos\soui\third-part\skia\include\utils;E:\soui_demos\soui\third-part\skia\include\utils\win;E:\soui_demos\soui\third-part\skia\include\ports;E:\soui_demos\soui\third-part\skia\include\text;E:\soui_demos\soui\third-part\skia\include\effects;E:\soui_demos\soui\third-part\skia\include\pathops;E:\soui_demos\soui\third-part\skia\include\views;E:\soui_demos\soui\third-part\skia\src\core;E:\soui_demos\soui\third-part\skia\src\image;E:\soui_demos\soui\third-part\skia\src\opts;E:\soui_demos\soui\third-part\skia\src\lazy;E:\soui_demos\soui\third-part\skia\src\sfnt;E:\soui_demos\soui\third-part\skia\src\gpu;E:\soui_demos\soui\third-part\skia\src\utils;E:\soui_demos\soui\third-part\skia\..\freetype\include;%(IncludePaths)</IncludePaths>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\third-part\skia\include\config;E:\soui_demos\soui\third-part\skia\include\core;E:\soui_demos\soui\third-part\skia\include\gpu;E:\soui_demos\soui\third-part\skia\include\images;E:\soui_demos\soui\third-part\skia\include\utils;E:\soui_demos\soui\third-part\skia\include\utils\win;E:\soui_demos\soui\third-part\skia\include\ports;E:\soui_demos\soui\third-part\skia\include\text;E:\soui_demos\soui\third-part\skia\include\effects;E:\soui_demos\soui\third-part\skia\include\pathops;E:\soui_demos\soui\third-part\skia\include\views;E:\soui_demos\soui\third-part\skia\src\core;E:\soui_demos\soui\third-part\skia\src\image;E:\soui_demos\soui\third-part\skia\src\opts;E:\soui_demos\soui\third-part\skia\src\lazy;E:\soui_demos\soui\third-part\skia\src\sfnt;E:\soui_demos\soui\third-part\skia\src\gpu;E:\soui_demos\soui\third-part\skia\src\utils;E:\soui_demos\soui\third-part\skia\..\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\soui_demos\soui\third-part\skia\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/soui_demos/soui/third-part/skia/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+F:\cmake-3.17.2-win64-x64\bin\cmake.exe -SE:/soui_demos/soui -BE:/soui_demos/soui/build --check-stamp-file E:/soui_demos/soui/build/third-part/skia/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\soui_demos\soui\build\third-part\skia\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/soui_demos/soui/third-part/skia/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+F:\cmake-3.17.2-win64-x64\bin\cmake.exe -SE:/soui_demos/soui -BE:/soui_demos/soui/build --check-stamp-file E:/soui_demos/soui/build/third-part/skia/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\soui_demos\soui\build\third-part\skia\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrAAConvexPathRenderer.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrAAHairLinePathRenderer.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrAARectRenderer.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrAddPathRenderers_default.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrAllocPool.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrAtlas.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrBezierEffect.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrBicubicEffect.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrBitmapTextContext.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrBlend.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrBufferAllocPool.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\debug\GrBufferObj.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrCacheID.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrClipData.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrClipMaskCache.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrClipMaskManager.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrConfigConversionEffect.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrContext.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrConvexPolyEffect.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrConvolutionEffect.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrCustomCoordsTextureEffect.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrDashingEffect.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\debug\GrDebugGL.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrDefaultPathRenderer.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrDistanceFieldTextContext.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrDistanceFieldTextureEffect.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrDitherEffect.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrDrawState.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrDrawTarget.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrFontScaler.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\debug\GrFrameBufferObj.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLAssembleInterface.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLBufferImpl.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLCaps.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLContext.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\debug\GrGLCreateDebugInterface.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLCreateNullInterface.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLDefaultInterface_native.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLExtensions.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\builders\GrGLFragmentOnlyProgramBuilder.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\builders\GrGLFragmentShaderBuilder.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\builders\GrGLFullProgramBuilder.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\builders\GrGLGeometryShaderBuilder.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLIndexBuffer.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLInterface.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLNameAllocator.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLNoOpInterface.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLPath.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLPathRange.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLPathRendering.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLProgram.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\builders\GrGLProgramBuilder.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLProgramDataManager.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLProgramDesc.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLProgramEffects.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLRenderTarget.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLSL.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\builders\GrGLSLPrettyPrint.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\builders\GrGLShaderBuilder.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\builders\GrGLShaderStringBuilder.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLStencilBuffer.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLTexture.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLUtil.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLVertexArray.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLVertexBuffer.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\builders\GrGLVertexShaderBuilder.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrGpu.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrGpuFactory.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGpuGL.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGpuGL_program.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrGpuResource.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrGpuResourceRef.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrInOrderDrawBuffer.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrLayerCache.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrMatrixConvolutionEffect.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrMemoryPool.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrOptDrawState.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrOvalEffect.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrOvalRenderer.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrPaint.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrPath.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrPathRange.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrPathRenderer.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrPathRendererChain.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrPathRendering.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrPathUtils.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrPictureUtils.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrProcessor.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrProgramElement.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\debug\GrProgramObj.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrRODrawState.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrRRectEffect.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrRectanizer_pow2.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrRectanizer_skyline.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrReducedClip.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrRenderTarget.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrResourceCache.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrResourceCache2.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrSWMaskHelper.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\debug\GrShaderObj.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrSimpleTextureEffect.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrSingleTextureEffect.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrSoftwarePathRenderer.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrStencil.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrStencilAndCoverPathRenderer.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrStencilAndCoverTextContext.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrStencilBuffer.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrSurface.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrTextContext.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrTextStrike.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrTexture.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrTextureAccess.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrTextureDomain.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\debug\GrTextureObj.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrTextureStripAtlas.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\debug\GrTextureUnitObj.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrTraceMarker.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrYUVtoRGBEffect.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\Sk1DPathEffect.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\Sk2DPathEffect.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkAAClip.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkAddIntersections.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkAdvancedTypefaceMetrics.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkAlphaRuns.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkAlphaThresholdFilter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkAnnotation.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkArithmeticMode.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkAvoidXfermode.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkBBHFactory.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkBBoxHierarchyRecord.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkBBoxRecord.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkBase64.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkBitSet.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkBitmap.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkBitmapCache.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkBitmapDevice.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkBitmapFilter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkBitmapHasher.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkBitmapHeap.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkBitmapProcShader.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkBitmapProcState.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkBitmapProcState_matrixProcs.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkBitmapScaler.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkBitmapSource.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkBitmap_scroll.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkBlitMask_D32.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkBlitRow_D16.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkBlitRow_D32.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkBlitter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkBlitter_A8.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkBlitter_ARGB32.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkBlitter_RGB16.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkBlitter_Sprite.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkBlurDrawLooper.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkBlurImageFilter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkBlurMask.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkBlurMaskFilter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkBoundaryPatch.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkBuffer.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\lazy\SkCachingPixelRef.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkCamera.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkCanvas.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkCanvasStack.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkCanvasStateUtils.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkChunkAlloc.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\gradients\SkClampRange.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkClipStack.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkColor.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkColorFilter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkColorFilterImageFilter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkColorFilters.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkColorMatrix.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkColorMatrixFilter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkColorTable.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkComposeImageFilter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkComposeShader.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkCondVar.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkConfig8888.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkConvolver.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkCornerPathEffect.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkCubicClipper.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkCubicInterval.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkCullPoints.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkDCubicIntersection.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkDCubicLineIntersection.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkDCubicToQuads.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkDLineIntersection.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkDQuadImplicit.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkDQuadIntersection.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkDQuadLineIntersection.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkDashPath.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkDashPathEffect.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkData.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkDataTable.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkDebug.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\debug\SkDebugGLContext.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\ports\SkDebug_win.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkDeque.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkDevice.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkDeviceLooper.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkDeviceProfile.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\lazy\SkDiscardableMemoryPool.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\ports\SkDiscardableMemory_none.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\lazy\SkDiscardablePixelRef.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkDiscretePathEffect.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkDisplacementMapEffect.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkDistanceFieldGen.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkDither.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\doc\SkDocument.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkDraw.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkDrawLooper.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkDropShadowImageFilter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkDumpCanvas.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkEdge.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkEdgeBuilder.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkEdgeClipper.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkEmbossMask.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkEmbossMaskFilter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkError.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkEventTracer.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkFilterProc.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkFilterShader.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkFlattenable.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkFlattenableSerialization.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkFloat.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkFloatBits.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkFont.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkFontDescriptor.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkFontHost.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\fonts\SkFontMgr_indirect.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkFontStream.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkFrontBufferedStream.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\SkGLContextHelper.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\fonts\SkGScalerContext.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkGatherPixelRefsAndRects.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkGeometry.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\ports\SkGlobalInitialization_default.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkGlyphCache.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkGpuBlurUtils.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\SkGpuDevice.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\SkGr.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\SkGrPixelRef.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\SkGrTexturePixelRef.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\gradients\SkGradientBitmapCache.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\gradients\SkGradientShader.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkGraphics.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\win\SkHRESULT.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\image\SkImage.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\images\SkImageDecoder.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\images\SkImageEncoder.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\images\SkImageEncoder_Factory.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkImageFilter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkImageGenerator.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkImageInfo.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\image\SkImagePriv.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\image\SkImage_Raster.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkInstCnt.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkInterpolator.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkIntersections.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkLayer.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkLayerDrawLooper.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkLayerRasterizer.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkLerpXfermode.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkLightingImageFilter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkLineClipper.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\gradients\SkLinearGradient.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkLocalMatrixShader.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkLumaColorFilter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkMD5.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkMagnifierImageFilter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkMallocPixelRef.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkMask.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkMaskFilter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkMaskGamma.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkMath.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkMatrix.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkMatrix22.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkMatrix44.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkMatrixConvolutionImageFilter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkMatrixImageFilter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\ports\SkMemory_malloc.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkMergeImageFilter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkMeshUtils.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkMetaData.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkMipMap.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkMorphologyImageFilter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkMultiPictureDraw.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkNWayCanvas.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkNinePatch.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkNullCanvas.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\SkNullGLContext.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkOSFile.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\ports\SkOSFile_stdio.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\sfnt\SkOTTable_name.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\sfnt\SkOTUtils.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkOffsetImageFilter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkOpAngle.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkOpContour.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkOpEdgeBuilder.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkOpSegment.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkPackBits.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkPaint.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkPaintFlagsDrawFilter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkPaintPriv.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkParse.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkParseColor.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkParsePath.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkPatchGrid.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkPatchUtils.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkPath.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkPathEffect.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkPathHeap.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkPathMeasure.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkPathOpsBounds.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkPathOpsCommon.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkPathOpsCubic.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkPathOpsDebug.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkPathOpsLine.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkPathOpsOp.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkPathOpsPoint.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkPathOpsQuad.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkPathOpsRect.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkPathOpsSimplify.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkPathOpsTightBounds.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkPathOpsTriangle.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkPathOpsTypes.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkPathRef.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkPathUtils.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkPathWriter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkPerlinNoiseShader.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkPicture.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkPictureContentInfo.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkPictureData.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkPictureFlat.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkPictureImageFilter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkPicturePlayback.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkPictureRecord.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkPictureRecorder.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkPictureShader.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkPictureStateTree.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkPictureUtils.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkPixelRef.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkPixelXorXfermode.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkPoint.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkPorterDuff.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkProcSpriteBlitter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkProxyCanvas.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkPtrRecorder.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkQuadClipper.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkQuarticRoot.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkRRect.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkRTConf.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkRTree.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\gradients\SkRadialGradient.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkRasterClip.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkRasterizer.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkReadBuffer.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkRecordDraw.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkRecordOpts.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkRecorder.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkRecording.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkRect.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkRectShaderImageFilter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkReduceOrder.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkRefDict.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkRegion.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkRegion_path.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\fonts\SkRemotableFontMgr.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkResourceCache.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkSHA1.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkScalar.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkScalerContext.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkScan.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkScan_AntiPath.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkScan_Antihair.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkScan_Hairline.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkScan_Path.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkShader.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkSpriteBlitter_ARGB32.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkSpriteBlitter_RGB16.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkStream.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkString.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkStringUtils.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkStroke.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkStrokeRec.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkStrokerPriv.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\image\SkSurface.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\image\SkSurface_Raster.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\gradients\SkSweepGradient.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkTLS.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkTSearch.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkTableColorFilter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkTableMaskFilter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkTestImageFilters.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\fonts\SkTestScalerContext.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkTextBlob.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\opts\SkTextureCompression_opts_none.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkTextureCompressor.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkTextureCompressor_ASTC.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkTextureCompressor_LATC.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkTextureCompressor_R11EAC.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkTileGrid.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkTileImageFilter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkTransparentShader.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\gradients\SkTwoPointConicalGradient.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\gradients\SkTwoPointConicalGradient_gpu.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\gradients\SkTwoPointRadialGradient.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkTypeface.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkTypefaceCache.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkUnPreMultiply.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkUtils.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkValidatingReadBuffer.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkVertState.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkWriteBuffer.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkWriter32.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\core\SkXfermode.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\effects\SkXfermodeImageFilter.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\ports\SkFontMgr_default_gdi.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\ports\SkFontHost_win.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\win\SkNativeGLContext_win.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\ports\SkOSFile_win.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\ports\SkTLS_win.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\SkThreadUtils_win.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\ports\SkTime_win.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\utils\win\SkWGL_win.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\win\GrGLCreateNativeInterface_win.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\opts\opts_check_x86.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\opts\SkXfermode_opts_SSE2.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\opts\SkBitmapFilter_opts_SSE2.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\opts\SkBitmapProcState_opts_SSE2.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\opts\SkBitmapProcState_opts_SSSE3.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\opts\SkBlitRect_opts_SSE2.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\opts\SkBlitRow_opts_SSE2.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\opts\SkBlurImage_opts_SSE2.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\opts\SkBlurImage_opts_SSE4.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\opts\SkMorphology_opts_SSE2.cpp" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\skia\src\opts\SkUtils_opts_SSE2.cpp" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\fonts\SkGScalerContext.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\fonts\SkTestScalerContext.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\utils\SkBase64.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\utils\SkBitmapHasher.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\utils\SkBitSet.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\utils\SkCanvasStack.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\utils\SkCondVar.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\utils\SkDashPathPriv.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\utils\SkFloatUtils.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\utils\SkGatherPixelRefsAndRects.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\utils\SkMatrix22.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\utils\SkMD5.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\utils\SkPatchGrid.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\utils\SkPatchUtils.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\utils\SkRunnable.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\utils\SkSHA1.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\utils\SkTextureCompressor.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\utils\SkTextureCompressor_ASTC.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\utils\SkTextureCompressor_Blitter.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\utils\SkTextureCompressor_LATC.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\utils\SkTextureCompressor_R11EAC.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\utils\SkTFitsIn.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\utils\SkThreadUtils.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\utils\SkThreadUtils_win.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\utils\SkTLogic.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkAntiRun.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkBBoxHierarchy.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkBBoxHierarchyRecord.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkBBoxRecord.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkBitmapFilter.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkBitmapHeap.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkBitmapProcShader.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkBitmapProcState.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkBitmapProcState_matrix.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkBitmapProcState_sample.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkBitmapScaler.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkBlitBWMaskTemplate.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkBlitter.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkConfig8888.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkConvolver.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkCoreBlitters.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkCubicClipper.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkDistanceFieldGen.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkDrawProcs.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkEdge.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkErrorInternals.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkFilterProc.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkFloat.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkFontDescriptor.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkFontStream.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkGlyphCache.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkGlyphCache_Globals.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkMaskGamma.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkMessageBus.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkPaintPriv.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkPathHeap.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkPictureContentInfo.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkPictureData.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkPictureFlat.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkPicturePlayback.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkPictureRecord.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkPictureShader.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkPictureStateTree.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkQuadClipper.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkReadBuffer.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkReader32.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkRegionPriv.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkRTree.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkScalerContext.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkScan.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkScanPriv.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkSinTable.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkSpriteBlitter.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkSpriteBlitterTemplate.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkStreamPriv.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkStroke.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkStrokerPriv.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkTextFormatParams.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkTextMapStateProc.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkTileGrid.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkTLList.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkTraceEvent.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkTSort.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkTypefaceCache.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\core\SkResourceCache.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\image\SkSurface_Base.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\lazy\SkCachingPixelRef.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkAddIntersections.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkDQuadImplicit.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkIntersectionHelper.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkIntersections.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkLineParameters.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkOpAngle.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkOpContour.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkOpEdgeBuilder.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkOpSegment.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkOpSpan.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkPathOpsBounds.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkPathOpsCommon.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkPathOpsCubic.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkPathOpsCurve.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkPathOpsDebug.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkPathOpsLine.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkPathOpsPoint.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkPathOpsQuad.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkPathOpsRect.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkPathOpsTriangle.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkPathOpsTypes.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkPathWriter.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkQuarticRoot.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\pathops\SkReduceOrder.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\effects\SkBlurMask.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\effects\SkEmbossMask.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\effects\SkEmbossMask_Table.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\effects\SkGpuBlurUtils.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\effects\gradients\SkClampRange.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\effects\gradients\SkGradientBitmapCache.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\effects\gradients\SkGradientShaderPriv.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\effects\gradients\SkLinearGradient.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\effects\gradients\SkRadialGradient.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\effects\gradients\SkRadialGradient_Table.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\effects\gradients\SkSweepGradient.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\effects\gradients\SkTwoPointConicalGradient.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\effects\gradients\SkTwoPointConicalGradient_gpu.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\effects\gradients\SkTwoPointRadialGradient.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\ports\SkAtomics_sync.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\ports\SkAtomics_win.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\ports\SkMutex_win.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrAAConvexPathRenderer.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrAAHairLinePathRenderer.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrAARectRenderer.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrAllocator.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrAllocPool.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrAtlas.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrBitmapTextContext.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrBlend.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrBufferAllocPool.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrClipMaskCache.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrClipMaskManager.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrDefaultPathRenderer.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrDistanceFieldTextContext.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrDrawState.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrDrawTarget.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrDrawTargetCaps.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrGeometryBuffer.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrGpu.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrIndexBuffer.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrInOrderDrawBuffer.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrLayerCache.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrMemoryPool.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrOrderedSet.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrOvalRenderer.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrPath.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrPathRange.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrPathRenderer.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrPathRendering.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrPathUtils.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrPictureUtils.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrPlotMgr.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrRectanizer.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrRectanizer_pow2.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrRectanizer_skyline.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrRedBlackTree.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrReducedClip.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrResourceCache.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrResourceCache2.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrRODrawState.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrSoftwarePathRenderer.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrStencil.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrStencilAndCoverPathRenderer.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrStencilAndCoverTextContext.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrStencilBuffer.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrStrokeInfo.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrSWMaskHelper.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrTBSearch.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrTemplates.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrTextContext.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrTextStrike.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrTextStrike_impl.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrTraceMarker.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrTracing.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrVertexBuffer.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\GrOptDrawState.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLAssembleInterface.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLBufferImpl.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLCaps.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLContext.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLDefines.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLIndexBuffer.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLIRect.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLNameAllocator.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLNoOpInterface.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLPath.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLPathRange.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLPathRendering.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLProgram.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLProgramDataManager.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLProgramDesc.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLProgramEffects.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLRenderTarget.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLShaderVar.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLSL.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLSL_impl.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLStencilBuffer.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLTexture.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLUniformHandle.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLUtil.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLVertexArray.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGLVertexBuffer.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\GrGpuGL.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\debug\GrBufferObj.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\debug\GrDebugGL.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\debug\GrFakeRefObj.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\debug\GrFBBindableObj.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\debug\GrFrameBufferObj.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\debug\GrProgramObj.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\debug\GrRenderBufferObj.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\debug\GrShaderObj.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\debug\GrTextureObj.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\debug\GrTextureUnitObj.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\debug\GrVertexArrayObj.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\builders\GrGLFragmentShaderBuilder.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\builders\GrGLGeometryShaderBuilder.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\builders\GrGLProgramBuilder.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\builders\GrGLShaderBuilder.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\builders\GrGLShaderStringBuilder.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\builders\GrGLVertexShaderBuilder.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\builders\GrGLFullProgramBuilder.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\gl\builders\GrGLFragmentOnlyProgramBuilder.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\Gr1DKernelEffect.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrBezierEffect.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrBicubicEffect.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrConfigConversionEffect.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrConvexPolyEffect.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrConvolutionEffect.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrCustomCoordsTextureEffect.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrDashingEffect.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrDistanceFieldTextureEffect.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrDitherEffect.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrMatrixConvolutionEffect.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrOvalEffect.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrRRectEffect.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrSimpleTextureEffect.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrSingleTextureEffect.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrTextureDomain.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrTextureStripAtlas.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\gpu\effects\GrYUVtoRGBEffect.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkAdvancedTypefaceMetrics.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkBBHFactory.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkBitmap.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkBitmapDevice.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkBlitRow.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkCanvas.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkChunkAlloc.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkClipStack.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkColor.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkColorFilter.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkColorPriv.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkColorShader.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkComposeShader.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkData.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkDeque.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkDevice.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkDither.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkDraw.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkDrawFilter.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkDrawLooper.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkEndian.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkError.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkFixed.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkFlattenable.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkFlattenableSerialization.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkFloatBits.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkFloatingPoint.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkFontHost.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkGraphics.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkImage.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkImageDecoder.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkImageEncoder.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkImageFilter.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkImageInfo.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkInstCnt.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkMallocPixelRef.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkMask.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkMaskFilter.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkMath.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkMatrix.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkMetaData.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkMultiPictureDraw.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkOnce.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkOSFile.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkPackBits.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkPaint.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkPath.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkPathEffect.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkPathMeasure.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkPathRef.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkPicture.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkPictureRecorder.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkPixelRef.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkPoint.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkPreConfig.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkRasterizer.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkRect.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkRefCnt.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkRegion.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkRRect.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkScalar.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkShader.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkStream.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkString.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkStrokeRec.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkSurface.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkTArray.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkTDArray.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkTDict.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkTDStack.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkTemplates.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkTextBlob.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkThread.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkTime.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkTInternalLList.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkTLazy.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkTRegistry.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkTSearch.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkTypeface.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkTypes.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkUnPreMultiply.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkUtils.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkWeakRefCnt.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkWriter32.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\core\SkXfermode.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\utils\SkBoundaryPatch.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\utils\SkCamera.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\utils\SkCanvasStateUtils.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\utils\SkCubicInterval.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\utils\SkCullPoints.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\utils\SkDebugUtils.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\utils\SkDumpCanvas.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\utils\SkEventTracer.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\utils\SkFrontBufferedStream.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\utils\SkInterpolator.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\utils\SkLayer.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\utils\SkMatrix44.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\utils\SkMeshUtils.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\utils\SkNinePatch.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\utils\SkNoSaveLayerCanvas.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\utils\SkNullCanvas.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\utils\SkNWayCanvas.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\utils\SkParse.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\utils\SkParsePaint.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\utils\SkParsePath.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\utils\SkPictureUtils.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\utils\SkProxyCanvas.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\utils\SkRandom.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\utils\SkRTConf.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\utils\SkWGL.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\utils\win\SkAutoCoInitialize.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\utils\win\SkHRESULT.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\utils\win\SkIStream.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\utils\win\SkTScopedComPtr.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\utils\mac\SkCGUtils.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\pathops\SkPathOps.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\Sk1DPathEffect.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\Sk2DPathEffect.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkAlphaThresholdFilter.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkArithmeticMode.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkAvoidXfermode.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkBitmapSource.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkBlurDrawLooper.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkBlurImageFilter.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkBlurMaskFilter.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkColorFilterImageFilter.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkColorMatrix.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkColorMatrixFilter.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkCornerPathEffect.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkDashPathEffect.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkDiscretePathEffect.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkDisplacementMapEffect.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkDrawExtraPathEffect.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkDropShadowImageFilter.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkEmbossMaskFilter.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkGradientShader.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkLayerDrawLooper.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkLayerRasterizer.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkLerpXfermode.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkLightingImageFilter.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkLumaColorFilter.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkMagnifierImageFilter.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkMorphologyImageFilter.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkOffsetImageFilter.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkPaintFlagsDrawFilter.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkPerlinNoiseShader.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkPixelXorXfermode.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkPorterDuff.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkRectShaderImageFilter.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkTableColorFilter.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkTableMaskFilter.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkTileImageFilter.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkTransparentShader.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\effects\SkXfermodeImageFilter.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\ports\SkFontConfigInterface.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\ports\SkFontMgr.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\ports\SkFontMgr_indirect.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\ports\SkFontStyle.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\ports\SkRemotableFontMgr.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\gpu\GrClipData.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\gpu\GrColor.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\gpu\GrConfig.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\gpu\GrContext.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\gpu\GrContextFactory.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\gpu\GrCoordTransform.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\gpu\GrFontScaler.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\gpu\GrGlyph.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\gpu\GrGpuResource.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\gpu\GrPaint.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\gpu\GrPathRendererChain.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\gpu\GrRect.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\gpu\GrRenderTarget.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\gpu\GrSurface.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\gpu\GrTexture.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\gpu\GrTextureAccess.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\gpu\GrTypes.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\gpu\GrUserConfig.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\gpu\SkGr.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\gpu\SkGrPixelRef.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\gpu\SkGrTexturePixelRef.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\gpu\gl\GrGLConfig.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\gpu\gl\GrGLExtensions.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\gpu\gl\GrGLFunctions.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\gpu\gl\GrGLInterface.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\gpu\gl\GrGLSLPrettyPrint.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\gpu\gl\SkDebugGLContext.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\gpu\gl\SkGLContextHelper.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\gpu\gl\SkMesaGLContext.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\gpu\gl\SkNativeGLContext.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\gpu\gl\SkNullGLContext.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\include\gpu\gl\SkANGLEGLContext.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\images\bmpdecoderhelper.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\images\SkScaledBitmapSampler.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\skia\src\images\transform_scanline.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\soui_demos\soui\build\ZERO_CHECK.vcxproj">
+      <Project>{CF3B0646-5BD2-34DA-895F-A3261AEA35A8}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

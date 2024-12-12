@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DA32DAC0-DCB0-32B6-A4B9-E55180EFF7F1}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Scintilla</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\soui_demos\soui\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Scintilla.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Scintilla</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\soui_demos\soui\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Scintilla.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Scintilla</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\third-part\Scintilla\src;E:\soui_demos\soui\third-part\Scintilla\include;E:\soui_demos\soui\third-part\Scintilla\lexlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;UNICODE;_UNICODE;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;UNICODE;_UNICODE;_DEBUG;_WINDOWS;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\third-part\Scintilla\src;E:\soui_demos\soui\third-part\Scintilla\include;E:\soui_demos\soui\third-part\Scintilla\lexlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;UNICODE;_UNICODE;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <IncludePaths>E:\soui_demos\soui\build\config;E:\soui_demos\soui\third-part\Scintilla\src;E:\soui_demos\soui\third-part\Scintilla\include;E:\soui_demos\soui\third-part\Scintilla\lexlib;%(IncludePaths)</IncludePaths>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\third-part\Scintilla\src;E:\soui_demos\soui\third-part\Scintilla\include;E:\soui_demos\soui\third-part\Scintilla\lexlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\third-part\Scintilla\src;E:\soui_demos\soui\third-part\Scintilla\include;E:\soui_demos\soui\third-part\Scintilla\lexlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;UNICODE;_UNICODE;_WINDOWS;NDEBUG;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\third-part\Scintilla\src;E:\soui_demos\soui\third-part\Scintilla\include;E:\soui_demos\soui\third-part\Scintilla\lexlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_USING_V110_SDK71_;_CRT_NONSTDC_NO_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;WCHAR_SIZE=2;STATIC_BUILD;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <IncludePaths>E:\soui_demos\soui\build\config;E:\soui_demos\soui\third-part\Scintilla\src;E:\soui_demos\soui\third-part\Scintilla\include;E:\soui_demos\soui\third-part\Scintilla\lexlib;%(IncludePaths)</IncludePaths>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\soui_demos\soui\build\config;E:\soui_demos\soui\third-part\Scintilla\src;E:\soui_demos\soui\third-part\Scintilla\include;E:\soui_demos\soui\third-part\Scintilla\lexlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\soui_demos\soui\third-part\Scintilla\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/soui_demos/soui/third-part/Scintilla/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+F:\cmake-3.17.2-win64-x64\bin\cmake.exe -SE:/soui_demos/soui -BE:/soui_demos/soui/build --check-stamp-file E:/soui_demos/soui/build/third-part/Scintilla/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\soui_demos\soui\build\third-part\Scintilla\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/soui_demos/soui/third-part/Scintilla/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+F:\cmake-3.17.2-win64-x64\bin\cmake.exe -SE:/soui_demos/soui -BE:/soui_demos/soui/build --check-stamp-file E:/soui_demos/soui/build/third-part/Scintilla/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\soui_demos\soui\build\third-part\Scintilla\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\include\ILexer.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\include\Platform.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\include\SciLexer.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\include\Sci_Position.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\include\Scintilla.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\include\ScintillaWidget.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\lexlib\Accessor.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\lexlib\CharacterCategory.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\lexlib\CharacterSet.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\lexlib\LexAccessor.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\lexlib\LexerBase.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\lexlib\LexerModule.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\lexlib\LexerNoExceptions.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\lexlib\LexerSimple.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\lexlib\OptionSet.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\lexlib\PropSetSimple.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\lexlib\SparseState.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\lexlib\StringCopy.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\lexlib\StyleContext.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\lexlib\SubStyles.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\lexlib\WordList.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\AutoComplete.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\CallTip.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\CaseConvert.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\CaseFolder.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\Catalogue.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\CellBuffer.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\CharClassify.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\ContractionState.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\Decoration.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\Document.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\EditModel.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\EditView.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\Editor.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\ExternalLexer.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\FontQuality.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\Indicator.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\KeyMap.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\LineMarker.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\MarginView.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\Partitioning.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\PerLine.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\Position.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\PositionCache.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\RESearch.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\RunStyles.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\ScintillaBase.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\Selection.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\SplitVector.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\Style.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\UniConversion.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\UnicodeFromUTF8.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\ViewStyle.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\src\XPM.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\win32\HanjaDic.h" />
+    <ClInclude Include="E:\soui_demos\soui\third-part\Scintilla\win32\PlatWin.h" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\lexers\LexCPP.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\lexers\LexHTML.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\lexlib\Accessor.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\lexlib\CharacterCategory.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\lexlib\CharacterSet.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\lexlib\LexerBase.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\lexlib\LexerModule.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\lexlib\LexerNoExceptions.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\lexlib\LexerSimple.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\lexlib\PropSetSimple.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\lexlib\StyleContext.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\lexlib\WordList.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\src\AutoComplete.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\src\CallTip.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\src\CaseConvert.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\src\CaseFolder.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\src\Catalogue.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\src\CellBuffer.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\src\CharClassify.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\src\ContractionState.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\src\Decoration.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\src\Document.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\src\EditModel.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\src\EditView.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\src\Editor.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\src\ExternalLexer.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\src\Indicator.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\src\KeyMap.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\src\LineMarker.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\src\MarginView.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\src\PerLine.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\src\PositionCache.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\src\RESearch.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\src\RunStyles.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\src\ScintillaBase.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\src\Selection.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\src\Style.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\src\UniConversion.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\src\ViewStyle.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\src\XPM.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\win32\HanjaDic.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\win32\PlatWin.cxx" />
+    <ClCompile Include="E:\soui_demos\soui\third-part\Scintilla\win32\ScintillaWin.cxx" />
+    <ResourceCompile Include="E:\soui_demos\soui\third-part\Scintilla\win32\ScintRes.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\soui_demos\soui\build\ZERO_CHECK.vcxproj">
+      <Project>{CF3B0646-5BD2-34DA-895F-A3261AEA35A8}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>
