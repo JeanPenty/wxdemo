@@ -17,6 +17,8 @@ public:
 	//id-name
 	std::map<std::string, std::string>			m_mapEmojisIndex;
 	std::map<std::string, IBitmap*>				m_mapFace;
+
+	SStringW m_sstrEmojiFolder;
 public:
 	std::string GenerateUUID();
 	void OperateEmojis();

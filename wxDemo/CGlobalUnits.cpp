@@ -4,6 +4,13 @@
 
 CGlobalUnits::CGlobalUnits(void)
 {
+	//ªÒ»°AppPath
+	TCHAR szFilePath[MAX_PATH + 1];
+	GetModuleFileName(NULL, szFilePath, MAX_PATH);
+	(_tcsrchr(szFilePath, _T('\\')))[1] = 0;
+	SStringW sstrExePath = szFilePath;
+
+	m_sstrEmojiFolder = sstrExePath + L"emojis";
 }
 
 CGlobalUnits::~CGlobalUnits(void)
