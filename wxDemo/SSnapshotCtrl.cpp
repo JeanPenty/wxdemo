@@ -14,8 +14,6 @@ SSnapshotCtrl::~SSnapshotCtrl(void)
 
 void SSnapshotCtrl::OnPaint(IRenderTarget* pRT)
 {
-// 	CPoint ptOrg(0,0);
-// 	pRT->SetViewportOrg(ptOrg);
 	HDC hDC = pRT->GetDC(0);
 	CDC dcCompatible;
 	dcCompatible.CreateCompatibleDC(hDC);
