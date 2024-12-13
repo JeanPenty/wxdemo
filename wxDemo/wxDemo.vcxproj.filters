@@ -56,6 +56,9 @@
     <ClCompile Include="SSnapshotCtrl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CTvContactAdapter.cpp">
+      <Filter>适配器</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="wxDemo.rc">
@@ -104,6 +107,9 @@
     </ClInclude>
     <ClInclude Include="SSnapshotCtrl.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CTvContactAdapter.h">
+      <Filter>适配器</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

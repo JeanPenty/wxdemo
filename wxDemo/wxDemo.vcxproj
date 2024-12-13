@@ -188,6 +188,7 @@
     <ClCompile Include="CGlobalUnits.cpp" />
     <ClCompile Include="CLvMessageAdapter.cpp" />
     <ClCompile Include="CSnapshotDlg.cpp" />
+    <ClCompile Include="CTvContactAdapter.cpp" />
     <ClCompile Include="CWindowEnumer.cpp" />
     <ClCompile Include="EmojiDlg.cpp" />
     <ClCompile Include="MainDlg.cpp" />
@@ -212,6 +213,7 @@
     <ClInclude Include="CGlobalUnits.h" />
     <ClInclude Include="CLvMessageAdapter.h" />
     <ClInclude Include="CSnapshotDlg.h" />
+    <ClInclude Include="CTvContactAdapter.h" />
     <ClInclude Include="CWindowEnumer.h" />
     <ClInclude Include="EmojiDlg.h" />
     <ClInclude Include="MainDlg.h" />
